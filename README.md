@@ -1,2 +1,1 @@
-# foo
-this is some foo for youuuu
+# This is a terminal based Dungeon Crawler written in Java
