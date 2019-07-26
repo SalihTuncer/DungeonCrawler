@@ -1,18 +1,23 @@
-import Location.Location;
-import Text.Text;
+import Location.*;
+import Text.StartText;
 import Character.Player;
 
 class GamingRoutine {
 
     void start(){
+        //a player is generated
         Player p1 = new Player(1);
 
-        Location start = new Location("Start");
+        //at the beginning of the game, the player is introduced to the game
+        p1.setLocation(new Location("Start"));
 
-        //at the beginning of the game, the player is in the hometown
-        p1.setLocation(start);
+        //output of the intro
+        new StartText(p1);
 
-        Text text= new Text(p1.getLocation());
+        //the player is set to the hometown
+        p1.setLocation(new Hometown("Hometown"));
+
+        //the game routine is now running all the time
 
     }
 }

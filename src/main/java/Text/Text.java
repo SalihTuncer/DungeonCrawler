@@ -1,9 +1,20 @@
 package Text;
 
-import Location.Location;
+import java.util.Scanner;
 
-public class Text {
-    public Text(Location location){
-        System.out.println(location);
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public abstract class Text {
+
+    //user input while in a location
+    private Scanner input = new Scanner(System.in);
+
+    Text(){
+        printText();
     }
+
+    protected abstract void printText();
 }
