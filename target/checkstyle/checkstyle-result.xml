@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.18">
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/ActionHandler.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Handler&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="5" column="39" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Combat/Combat.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Combat&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Combat/Buff.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Combat&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Combat/Attack.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Combat&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Combat/Aura.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Combat&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Combat/Magic.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Combat&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Minion.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Enemy.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="3" column="37" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Character.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="22" column="23" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Player.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Class/Assassin.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Class&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Class/Mage.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Class&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Class/Skilltree/AssassinTree.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Class.Skilltree&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Class/Skilltree/MageTree.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Class.Skilltree&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Class/Skilltree/NecromancerTree.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Class.Skilltree&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Class/Necromancer.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Class&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Dungeon.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Hometown.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Location.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="5" severity="warning" message="Zusätzliche Trennung in der Importgruppe vor &apos;lombok.Getter&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="8" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="12" severity="warning" message="Das Feld &apos;name&apos; muss als private deklariert werden und Zugriffsmethoden haben." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="14" column="10" severity="warning" message="Das Feld &apos;text&apos; muss als private deklariert werden und Zugriffsmethoden haben." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
+<error line="16" column="26" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/GamingRoutine.java">
+<error line="1" severity="warning" message="Es fehlt eine Package-Deklaration." source="com.puppycrawl.tools.checkstyle.checks.coding.PackageDeclarationCheck"/>
+<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="7" column="17" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Movement/Carriage.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Movement&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Movement/Movement.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Movement&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="8" column="52" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Movement/Fly.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Movement&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Movement/Walk.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Movement&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Main.java">
+<error line="1" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="1" severity="warning" message="Es fehlt eine Package-Deklaration." source="com.puppycrawl.tools.checkstyle.checks.coding.PackageDeclarationCheck"/>
+<error line="3" column="43" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/Text.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="5" severity="warning" message="Falsche Reihenfolge des Imports von &apos;java.util.Scanner&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="7" column="8" severity="warning" message="Nicht verwendeter Import - Handler.ActionHandler." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="12" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="21" column="24" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/HometownText.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="44" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/DungeonText.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="13" column="44" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/StartText.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="44" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="18" column="44" severity="warning" message="Nach &apos;+&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="18" column="44" severity="warning" message="Vor &apos;+&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+</checkstyle>
