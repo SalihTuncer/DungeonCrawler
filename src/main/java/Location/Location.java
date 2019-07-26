@@ -7,13 +7,13 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class Location {
+public abstract class Location {
     //actual name of the location
     String name;
     //actual text of the location
     Text text;
 
-    public Location(String name){
+    Location(String name){
         this.name = name;
     }
 

@@ -6,7 +6,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-class Character {
+abstract class Character {
 
     //basic attributes of the Characters in the game
     private String name;
