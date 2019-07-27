@@ -1,13 +1,12 @@
 package Text;
 
+import Character.Enemy;
 import Character.Player;
-
-import java.util.Scanner;
-
-import Handler.ActionHandler;
 import Movement.Movement;
 import lombok.Getter;
 import lombok.Setter;
+
+import java.util.Scanner;
 
 @Getter
 @Setter
@@ -20,9 +19,10 @@ public abstract class Text {
 
     Text(Player player){
         printText(player);
-        //TODO: do something with the input of the player
-        //new ActionHandler(input.nextLine());
+        System.out.print("Which option do you choose?: ");
     }
 
     protected abstract void printText(Player player);
+
+    protected abstract void printText(Player player, Enemy enemy);
 }

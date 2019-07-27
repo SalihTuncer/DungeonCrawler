@@ -1,6 +1,6 @@
-import Location.*;
-import Text.StartText;
 import Character.Player;
+import Location.Hometown;
+import Text.StartText;
 
 class GamingRoutine {
 
