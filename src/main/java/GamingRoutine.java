@@ -12,7 +12,7 @@ class GamingRoutine {
         new StartText(p1);
 
         //the player is set to the hometown
-        p1.setLocation(new Hometown("Hometown", p1));
+        new Hometown("Hometown", p1);
 
     }
 }

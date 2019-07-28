@@ -1,11 +1,12 @@
 package Location;
 
-import Text.HometownText;
 import Character.Player;
+import Text.HometownText;
 
 public class Hometown extends Location {
     public Hometown(String name, Player player) {
         super(name);
+        //options will be printed
         new HometownText(player);
     }
 }

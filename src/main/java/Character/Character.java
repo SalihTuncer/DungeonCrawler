@@ -1,6 +1,5 @@
 package Character;
 
-import Location.Location;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,8 +15,6 @@ abstract class Character {
     private int mResistance;
     private int dex;
     private int lvl;
-    //additional information about the character
-    private Location location;
 
     Character(int lvl){
         this.hp *= lvl;

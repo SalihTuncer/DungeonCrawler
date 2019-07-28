@@ -1,6 +1,5 @@
 package Handler;
 
-import Character.Enemy;
 import Character.Player;
 import lombok.Getter;
 import lombok.Setter;
@@ -34,15 +33,6 @@ public abstract class Handler {
     protected abstract void handleInput(String input, Player player);
 
     /**
-     * in some situations e.g. fights you need the enemy object too
-     *
-     * @param input  user input in the current location
-     * @param player player object
-     * @param enemy  enemy object
-     */
-    protected abstract void handleInput(String input, Player player, Enemy enemy);
-
-    /**
      * checks if the input matches with the given options in the current location
      *
      * @param input user input in the current location
@@ -53,8 +43,6 @@ public abstract class Handler {
         reference.set(0);
 
         getOptions().forEach((in, id) -> {
-            System.out.println(in);
-            System.out.println(id);
             if (in.equals(input))
                 reference.set(id);
         });

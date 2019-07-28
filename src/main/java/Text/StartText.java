@@ -1,6 +1,5 @@
 package Text;
 
-import Character.Enemy;
 import Character.Player;
 
 public class StartText extends Text {
@@ -19,8 +18,4 @@ public class StartText extends Text {
         System.out.println(player.getName()+", I will take you to the hometown.");
     }
 
-    @Override
-    protected void printText(Player player, Enemy enemy) {
-
-    }
 }

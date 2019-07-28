@@ -1,17 +1,15 @@
 package Handler;
 
-import Character.Enemy;
 import Character.Player;
 import Exception.LocationNotFoundException;
-import Location.Hometown;
+import Text.HometownText;
 
 import java.util.Scanner;
 
 public class DungeonHandler extends Handler {
 
-    public DungeonHandler(String input, Player player, Enemy enemy) {
+    public DungeonHandler(String input, Player player) {
         super(input, player);
-        handleInput(input, player, enemy);
     }
 
     @Override
@@ -24,10 +22,6 @@ public class DungeonHandler extends Handler {
 
     @Override
     protected void handleInput(String input, Player player) {
-    }
-
-    @Override
-    protected void handleInput(String input, Player player, Enemy enemy) {
 
         int result = matches(input);
 
@@ -38,20 +32,17 @@ public class DungeonHandler extends Handler {
                 //if the location is wrong, the exception is printed and the user needs to renew the input
                 e.printStackTrace();
                 System.out.print("Choose a valid option pls:");
-                new DungeonHandler(new Scanner(System.in).nextLine().toLowerCase(), player, enemy);
+                new DungeonHandler(new Scanner(System.in).nextLine().toLowerCase(), player);
                 return;
             }
-
-        System.out.println(result);
         //here are the different handles of the numbers
-        //TODO: enemys should not be generated all the time when you enter the dungeon FIX IT
         switch (result) {
             case 1:
                 System.out.println("fighting system not implemented yet");
-                new DungeonHandler(new Scanner(System.in).nextLine().toLowerCase(), player, enemy);
+                new DungeonHandler(new Scanner(System.in).nextLine().toLowerCase(), player);
                 break;
             case 2:
-                player.setLocation(new Hometown("hometown", player));
+                new HometownText(player);
                 break;
         }
     }

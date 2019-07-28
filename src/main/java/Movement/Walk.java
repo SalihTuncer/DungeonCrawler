@@ -1,7 +1,7 @@
 package Movement;
 
-import Location.Location;
 import Character.Player;
+import Location.Location;
 
 public class Walk extends Movement {
 
@@ -10,6 +10,5 @@ public class Walk extends Movement {
     }
 
     protected void move(Player traveler, Location destination) {
-        traveler.setLocation(destination);
     }
 }

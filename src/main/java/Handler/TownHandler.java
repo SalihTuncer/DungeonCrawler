@@ -1,9 +1,8 @@
 package Handler;
 
-import Character.Enemy;
 import Character.Player;
 import Exception.LocationNotFoundException;
-import Location.Dungeon;
+import Text.DungeonText;
 
 import java.util.Scanner;
 
@@ -40,12 +39,8 @@ public class TownHandler extends Handler {
             }
         //here are the different handles of the numbers
         if (result == 1) {
-            player.setLocation(new Dungeon("dungeon", player));
+            new DungeonText(player);
         }
-    }
-
-    @Override
-    protected void handleInput(String input, Player player, Enemy enemy) {
     }
 
 }

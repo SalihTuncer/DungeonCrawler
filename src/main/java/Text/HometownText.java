@@ -1,6 +1,5 @@
 package Text;
 
-import Character.Enemy;
 import Character.Player;
 import Handler.TownHandler;
 
@@ -14,14 +13,11 @@ public class HometownText extends Text {
 
     @Override
     protected void printText(Player player){
-        System.out.println("Welcome to the hometown.");
+        System.out.println("\nWelcome to the hometown.");
         System.out.println("You have the following options:");
         System.out.println("1.Enter the dungeon");
         //System.out.println("2.Settings");
+        System.out.print("Which option do you choose?: ");
     }
 
-    @Override
-    protected void printText(Player player, Enemy enemy) {
-
-    }
 }

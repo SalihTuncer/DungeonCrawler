@@ -1,6 +1,5 @@
 package Text;
 
-import Character.Enemy;
 import Character.Player;
 import Movement.Movement;
 import lombok.Getter;
@@ -19,10 +18,8 @@ public abstract class Text {
 
     Text(Player player){
         printText(player);
-        System.out.print("Which option do you choose?: ");
     }
 
     protected abstract void printText(Player player);
 
-    protected abstract void printText(Player player, Enemy enemy);
 }

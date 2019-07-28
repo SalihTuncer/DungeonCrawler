@@ -1,13 +1,15 @@
 package Location;
 
-import Text.DungeonText;
 import Character.Player;
-import Character.Enemy;
+import Text.DungeonText;
 
 public class Dungeon extends Location {
 
     public Dungeon(String name, Player player) {
         super(name);
-        new DungeonText(player, new Enemy(player.getLvl()));
+        //only when entering the dungeon, an enemy will be generated
+        player.generateEnemy(player.getLvl());
+        //options will be printed
+        new DungeonText(player);
     }
 }

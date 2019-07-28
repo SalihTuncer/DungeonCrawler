@@ -1,4 +1,4 @@
 package Combat;
 
-abstract class Combat {
+public abstract class Combat {
 }
