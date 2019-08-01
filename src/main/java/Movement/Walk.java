@@ -1,14 +1,14 @@
 package Movement;
 
 import Character.Player;
-import Location.Location;
 
 public class Walk extends Movement {
 
-    Walk(Player traveler, Location destination) {
-        super(traveler, destination);
+    public Walk() {
+        super();
     }
 
-    protected void move(Player traveler, Location destination) {
+    public void move(Player traveler, String destination) {
+        traveler.findLocationByName(destination).getText().printText(traveler);
     }
 }

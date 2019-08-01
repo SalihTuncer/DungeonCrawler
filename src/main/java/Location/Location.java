@@ -1,7 +1,6 @@
 package Location;
 
 import Text.Text;
-
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,7 +8,7 @@ import lombok.Setter;
 @Setter
 public abstract class Location {
     //actual name of the location
-    String name;
+    private String name;
     //actual text of the location
     Text text;
 

@@ -1,7 +1,7 @@
 package Text;
 
 import Character.Player;
-import Movement.Movement;
+import Handler.Handler;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,13 +13,12 @@ public abstract class Text {
 
     //user input while in a location
     private Scanner input = new Scanner(System.in);
-
-    private Movement movement;
+    //every text has its own handler
+    Handler handler;
 
     Text(Player player){
-        printText(player);
+        //printText(player);
     }
 
-    protected abstract void printText(Player player);
-
+    public abstract void printText(Player player);
 }

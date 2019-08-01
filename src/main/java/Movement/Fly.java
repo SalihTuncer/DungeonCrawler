@@ -1,14 +1,13 @@
 package Movement;
 
 import Character.Player;
-import Location.Location;
 
 public class Fly extends Movement {
 
-    Fly(Player traveler, Location destination) {
-        super(traveler, destination);
+    Fly() {
+        super();
     }
 
-    protected void move(Player traveler, Location destination) {
+    public void move(Player traveler, String destination) {
     }
 }

@@ -1,13 +1,16 @@
 package Movement;
 
-import Location.Location;
 import Character.Player;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public abstract class Movement {
 
-    Movement(Player traveler, Location destination){
-        move(traveler, destination);
+    Movement() {
+
     }
 
-    protected abstract void move(Player traveler, Location destination);
+    public abstract void move(Player traveler, String destination);
 }

@@ -8,8 +8,7 @@ public class StartText extends Text {
         super(player);
     }
 
-    @Override
-    protected void printText(Player player){
+    public void printText(Player player) {
         System.out.println("Welcome to the world of Dungeon Crawler!");
         //now the player is asked for the name of the player
         System.out.print("What is your name?: ");

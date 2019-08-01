@@ -1,10 +1,6 @@
 package Handler;
 
 import Character.Player;
-import Exception.LocationNotFoundException;
-import Text.DungeonText;
-
-import java.util.Scanner;
 
 public class TownHandler extends Handler {
 
@@ -12,8 +8,7 @@ public class TownHandler extends Handler {
         super(input, player);
     }
 
-    @Override
-    protected void initializeOptions() {
+    public void initializeOptions() {
         //entering the dungeon
         getOptions().put("dungeon", 1);
         getOptions().put("1", 1);
@@ -23,23 +18,18 @@ public class TownHandler extends Handler {
 
     }
 
-    @Override
-    protected void handleInput(String input, Player player) {
+    public void handleInput(String input, Player player) {
 
         int result = matches(input);
-        if (result == 0)
-            try {
-                throw new LocationNotFoundException(input);
-            } catch (LocationNotFoundException e) {
-                //if the location is wrong, the exception is printed and the user needs to renew the input
-                e.printStackTrace();
-                System.out.print("Choose a valid option pls:");
-                new TownHandler(new Scanner(System.in).nextLine().toLowerCase(), player);
-                return;
-            }
+        if (result == 0) {
+            noMatchRoutine(input, player);
+            return;
+        }
         //here are the different handles of the numbers
-        if (result == 1) {
-            new DungeonText(player);
+        switch (result) {
+            case 1:
+                this.walk.move(player, "dungeon");
+                break;
         }
     }
 

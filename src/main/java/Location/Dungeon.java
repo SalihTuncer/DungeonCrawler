@@ -9,7 +9,11 @@ public class Dungeon extends Location {
         super(name);
         //only when entering the dungeon, an enemy will be generated
         player.generateEnemy(player.getLvl());
-        //options will be printed
-        new DungeonText(player);
+        //text of the current location will be printed
+        this.text = new DungeonText(player);
+    }
+
+    public Dungeon(String name) {
+        super(name);
     }
 }

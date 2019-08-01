@@ -1,17 +1,23 @@
 package Handler;
 
 import Character.Player;
+import Exception.LocationNotFoundException;
+import Movement.Movement;
+import Movement.Walk;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 import java.util.concurrent.atomic.AtomicReference;
 
 @Getter
 @Setter
 public abstract class Handler {
-
+    //used to travel between locations by foot (less overhead)
+    Movement walk = new Walk();
+    //all valid available options are stored
     private Map<String, Integer> options = new HashMap<>();
 
     Handler(String input, Player player) {
@@ -22,7 +28,7 @@ public abstract class Handler {
     /**
      * initializes the options which are give in the current location
      */
-    protected abstract void initializeOptions();
+    public abstract void initializeOptions();
 
     /**
      * handles the user input in the current location because different options are given
@@ -30,7 +36,7 @@ public abstract class Handler {
      * @param input  user input in the current location
      * @param player player object
      */
-    protected abstract void handleInput(String input, Player player);
+    public abstract void handleInput(String input, Player player);
 
     /**
      * checks if the input matches with the given options in the current location
@@ -48,5 +54,23 @@ public abstract class Handler {
         });
 
         return reference.get();
+    }
+
+    /**
+     * if the input does not match with any given options, the user is asked to renew his input
+     *
+     * @param input  user input
+     * @param player actual player
+     */
+    void noMatchRoutine(String input, Player player) {
+        try {
+            throw new LocationNotFoundException(input);
+        } catch (LocationNotFoundException e) {
+            //if the location is wrong, the exception is printed and the user needs to renew the input
+            //e.printStackTrace();
+            System.out.print("Choose a valid option pls:");
+            //recursion: ask again for new valid input
+            handleInput(new Scanner(System.in).nextLine().toLowerCase(), player);
+        }
     }
 }

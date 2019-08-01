@@ -1,14 +1,13 @@
 package Movement;
 
 import Character.Player;
-import Location.Location;
 
 public class Carriage extends Movement {
 
-    Carriage(Player traveler, Location destination) {
-        super(traveler, destination);
+    Carriage() {
+        super();
     }
 
-    protected void move(Player traveler, Location destination) {
+    public void move(Player traveler, String destination) {
     }
 }

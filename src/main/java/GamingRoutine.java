@@ -1,5 +1,4 @@
 import Character.Player;
-import Location.Hometown;
 import Text.StartText;
 
 class GamingRoutine {
@@ -9,10 +8,9 @@ class GamingRoutine {
         Player p1 = new Player(1);
 
         //output of the intro
-        new StartText(p1);
+        new StartText(p1).printText(p1);
 
-        //the player is set to the hometown
-        new Hometown("Hometown", p1);
-
+        //game starts in hometown
+        p1.findLocationByName("hometown").getText().printText(p1);
     }
 }
