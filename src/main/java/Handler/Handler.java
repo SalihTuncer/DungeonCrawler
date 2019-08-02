@@ -1,6 +1,8 @@
 package Handler;
 
 import Character.Player;
+import Combat.Attack;
+import Combat.Combat;
 import Exception.LocationNotFoundException;
 import Movement.Movement;
 import Movement.Walk;
@@ -19,6 +21,8 @@ public abstract class Handler {
     Movement walk = new Walk();
     //all valid available options are stored
     private Map<String, Integer> options = new HashMap<>();
+    //combat mechanic as an attribute
+    private Combat combat = new Attack();
 
     Handler(String input, Player player) {
         initializeOptions();
@@ -66,11 +70,20 @@ public abstract class Handler {
         try {
             throw new LocationNotFoundException(input);
         } catch (LocationNotFoundException e) {
-            //if the location is wrong, the exception is printed and the user needs to renew the input
+            //if the location is wrong, the exception is called and the user needs to renew the input
             //e.printStackTrace();
             System.out.print("Choose a valid option pls:");
             //recursion: ask again for new valid input
             handleInput(new Scanner(System.in).nextLine().toLowerCase(), player);
         }
+    }
+
+    /**
+     * clears the terminal completely
+     * it is used when the user give has a valid action
+     */
+    void clear() {
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
     }
 }

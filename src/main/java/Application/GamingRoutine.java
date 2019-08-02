@@ -1,9 +1,11 @@
+package Application;
+
 import Character.Player;
 import Text.StartText;
 
-class GamingRoutine {
+public class GamingRoutine {
 
-    void start(){
+    public void start() {
         //a player is generated
         Player p1 = new Player(1);
 

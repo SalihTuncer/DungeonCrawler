@@ -8,6 +8,7 @@ public class Fly extends Movement {
         super();
     }
 
+    @Override
     public void move(Player traveler, String destination) {
     }
 }

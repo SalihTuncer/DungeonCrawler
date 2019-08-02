@@ -8,6 +8,7 @@ public class Walk extends Movement {
         super();
     }
 
+    @Override
     public void move(Player traveler, String destination) {
         traveler.findLocationByName(destination).getText().printText(traveler);
     }

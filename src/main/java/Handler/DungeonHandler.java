@@ -2,14 +2,13 @@ package Handler;
 
 import Character.Player;
 
-import java.util.Scanner;
-
 public class DungeonHandler extends Handler {
 
     public DungeonHandler(String input, Player player) {
         super(input, player);
     }
 
+    @Override
     public void initializeOptions() {
         getOptions().put("fight", 1);
         getOptions().put("1", 1);
@@ -17,6 +16,7 @@ public class DungeonHandler extends Handler {
         getOptions().put("2", 2);
     }
 
+    @Override
     public void handleInput(String input, Player player) {
 
         int result = matches(input);
@@ -28,11 +28,15 @@ public class DungeonHandler extends Handler {
         //here are the different handles of the numbers
         switch (result) {
             case 1:
-                System.out.println("fighting system not implemented yet");
-                //recursion: ask again for new valid input
-                handleInput(new Scanner(System.in).nextLine().toLowerCase(), player);
+                clear();
+                //the player decides to fight in the dungeon
+                getCombat().fight(player);
+                getCombat().consequences(player);
+                //handleInput(new Scanner(System.in).nextLine().toLowerCase(), player);
+                player.findLocationByName("dungeon").getText().decision(player);
                 break;
             case 2:
+                //the player decides to move to the hometown
                 this.walk.move(player, "hometown");
                 break;
         }

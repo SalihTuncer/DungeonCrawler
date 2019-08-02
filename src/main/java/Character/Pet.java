@@ -5,4 +5,8 @@ public class Pet extends Character {
     public Pet(int lvl) {
         super(lvl);
     }
+
+    @Override
+    public void newStats(int lvl) {
+    }
 }

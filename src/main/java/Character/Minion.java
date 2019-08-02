@@ -5,4 +5,8 @@ public class Minion extends Character {
     public Minion(int lvl) {
         super(lvl);
     }
+
+    @Override
+    public void newStats(int lvl) {
+    }
 }

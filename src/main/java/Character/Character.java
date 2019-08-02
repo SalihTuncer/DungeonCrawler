@@ -15,14 +15,41 @@ abstract class Character {
     private int mResistance;
     private int dex;
     private int lvl;
+    private int xp;
 
-    Character(int lvl){
-        this.hp *= lvl;
-        this.atk *= lvl;
-        this.armor *= lvl;
-        this.mResistance *= lvl;
-        this.dex *= lvl;
-        this.lvl = lvl;
+    Character(int lvl) {
+        newStats(lvl);
     }
 
+    public boolean isAlive() {
+        return this.hp > 0;
+    }
+
+    public boolean isReadyToLevelUp() {
+        return this.xp >= lvl * 3;
+    }
+
+    /**
+     * output of the general stats for the specific object
+     */
+    public void printStats(Character character) {
+        System.out.println("================================");
+        System.out.println("Name: " + character.getName());
+        System.out.println("Health: " + character.getHp());
+        System.out.println("Attack: " + character.getAtk());
+        System.out.println("Armor: " + character.getArmor());
+        System.out.println("MgcRes: " + character.getMResistance());
+        System.out.println("Dex: " + character.getDex());
+        System.out.println("Lvl: " + character.getLvl());
+        System.out.println("XP: " + character.getXp());
+        System.out.println("================================\n");
+    }
+
+    /**
+     * this method gives the character new stats depending on the object
+     * it is used when an Character-object is initialized or when it gets a level up
+     *
+     * @param lvl is the lvl which influences the stats generated
+     */
+    public abstract void newStats(int lvl);
 }

@@ -9,8 +9,14 @@ public class DungeonText extends Text {
         super(player);
     }
 
+    @Override
     public void printText(Player player) {
-        System.out.println("\nYou entered the deep of the dungeon!");
+        clear();
+        System.out.println("You entered the deep of the dungeon!");
+        decision(player);
+    }
+
+    public void decision(Player player) {
         System.out.println("You have the following options:");
         System.out.println("1.Fight");
         System.out.println("2.Escape to the hometown.");

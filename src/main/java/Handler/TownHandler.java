@@ -8,6 +8,7 @@ public class TownHandler extends Handler {
         super(input, player);
     }
 
+    @Override
     public void initializeOptions() {
         //entering the dungeon
         getOptions().put("dungeon", 1);
@@ -18,6 +19,7 @@ public class TownHandler extends Handler {
 
     }
 
+    @Override
     public void handleInput(String input, Player player) {
 
         int result = matches(input);

@@ -19,6 +19,7 @@ public class Player extends Character {
 
     public Player(int lvl) {
         super(lvl);
+        //locations get initialized
         initializeLocations();
     }
 
@@ -30,6 +31,18 @@ public class Player extends Character {
 
     public void generateEnemy(int lvl) {
         this.enemy = new Enemy(lvl);
+    }
+
+    @Override
+    public void newStats(int lvl) {
+        //in general the player has a little bit better stats than the enemy
+        setHp(lvl * 10);
+        setAtk(lvl * 4);
+        setArmor(lvl * 2);
+        setMResistance(lvl);
+        setDex(lvl * 2);
+        setLvl(lvl);
+        setXp(0);
     }
 
     public Location findLocationByName(String name) {
@@ -46,4 +59,5 @@ public class Player extends Character {
 
         return location.get();
     }
+
 }
