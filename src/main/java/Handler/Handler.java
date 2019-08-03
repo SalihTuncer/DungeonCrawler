@@ -23,6 +23,8 @@ public abstract class Handler {
     private Map<String, Integer> options = new HashMap<>();
     //combat mechanic as an attribute
     private Combat combat = new Attack();
+    //handles user input
+    private Scanner scanner = new Scanner(System.in);
 
     Handler(String input, Player player) {
         initializeOptions();
@@ -74,7 +76,7 @@ public abstract class Handler {
             //e.printStackTrace();
             System.out.print("Choose a valid option pls:");
             //recursion: ask again for new valid input
-            handleInput(new Scanner(System.in).nextLine().toLowerCase(), player);
+            handleInput(getScanner().nextLine().toLowerCase(), player);
         }
     }
 

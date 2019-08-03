@@ -2,8 +2,11 @@
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Exception/NotAllowedNameException.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Class/Skilltree/NecromancerTree.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Enemy.java
+/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/FileSystem/FileSystem.java
+/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/HometownHandler.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Movement/Carriage.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Dungeon.java
+/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/SettingsHandler.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Class/Skilltree/MageTree.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Class/Mage.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/Handler.java
@@ -16,9 +19,10 @@
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Location.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Combat/Buff.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Class/Necromancer.java
-/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/TownHandler.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Combat/Aura.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Class/Assassin.java
+/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Settings.java
+/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/FileSystem/Load.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Player.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Hometown.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Exception/LocationNotFoundException.java
@@ -27,9 +31,11 @@
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Movement/Fly.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/Text.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/HometownText.java
+/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/SettingsText.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/StartText.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Application/GamingRoutine.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Class/Skilltree/AssassinTree.java
+/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/FileSystem/Save.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Movement/Movement.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/DungeonText.java
 /Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Application/Main.java

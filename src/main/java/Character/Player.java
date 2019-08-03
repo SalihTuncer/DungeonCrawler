@@ -3,6 +3,7 @@ package Character;
 import Location.Dungeon;
 import Location.Hometown;
 import Location.Location;
+import Location.Settings;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -27,6 +28,7 @@ public class Player extends Character {
         this.locations = new HashSet<Location>();
         this.locations.add(new Hometown("hometown", this));
         this.locations.add(new Dungeon("dungeon", this));
+        this.locations.add(new Settings("settings", this));
     }
 
     public void generateEnemy(int lvl) {

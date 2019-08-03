@@ -46,6 +46,17 @@ abstract class Character {
     }
 
     /**
+     * all the attributes are given as a String-Array
+     *
+     * @return the attributes
+     */
+    public String[] getAllAttributes() {
+        return new String[]{getName(), Integer.toString(getHp()), Integer.toString(getAtk()),
+                Integer.toString(getArmor()), Integer.toString(getMResistance()), Integer.toString(getDex()),
+                Integer.toString(getLvl()), Integer.toString(getXp())};
+    }
+
+    /**
      * this method gives the character new stats depending on the object
      * it is used when an Character-object is initialized or when it gets a level up
      *

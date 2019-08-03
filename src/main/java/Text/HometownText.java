@@ -1,7 +1,7 @@
 package Text;
 
 import Character.Player;
-import Handler.TownHandler;
+import Handler.HometownHandler;
 
 public class HometownText extends Text {
 
@@ -20,10 +20,10 @@ public class HometownText extends Text {
     public void decision(Player player) {
         System.out.println("You have the following options:");
         System.out.println("1.Enter the dungeon");
-        //System.out.println("2.Settings");
+        System.out.println("2.Settings");
         System.out.print("Which option do you choose?: ");
         //now the handler is processing the input of the player
-        this.handler = new TownHandler(getInput().nextLine().toLowerCase(), player);
+        this.handler = new HometownHandler(getInput().nextLine().toLowerCase(), player);
         System.out.println();
     }
 

@@ -29,8 +29,8 @@ public class StartText extends Text {
         //the name which is asked for, is given as an attribute for the player
         player.setName(getInput().nextLine());
         try {
-            //lowercase, uppercase, commas and whitespaces are accepted
-            if (!Pattern.matches("[a-zA-Z\\s,]*", player.getName()))
+            //lowercase, uppercase and whitespaces are accepted
+            if (!Pattern.matches("[a-zA-Z\\s]*", player.getName()))
                 throw new NotAllowedNameException(player.getName());
         } catch (NotAllowedNameException e) {
             System.out.println("Lowercase, uppercase, commas and whitespaces are accepted");
