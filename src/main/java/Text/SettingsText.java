@@ -5,8 +5,8 @@ import Handler.SettingsHandler;
 
 public class SettingsText extends Text {
 
-    public SettingsText(Player player) {
-        super(player);
+    public SettingsText() {
+        this.handler = new SettingsHandler();
     }
 
     @Override
@@ -24,6 +24,7 @@ public class SettingsText extends Text {
         System.out.println("3.Save game");
         System.out.println("4.Load game");
         System.out.println("5.Quit game");
-        this.handler = new SettingsHandler(getInput().nextLine().toLowerCase(), player);
+        System.out.print("Which option do you choose?: ");
+        this.handler.handleInput(getInput().nextLine().toLowerCase(), player);
     }
 }

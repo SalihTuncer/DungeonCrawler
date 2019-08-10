@@ -5,8 +5,8 @@ import Handler.DungeonHandler;
 
 public class DungeonText extends Text {
 
-    public DungeonText(Player player) {
-        super(player);
+    public DungeonText() {
+        this.handler = new DungeonHandler();
     }
 
     @Override
@@ -19,9 +19,10 @@ public class DungeonText extends Text {
     public void decision(Player player) {
         System.out.println("You have the following options:");
         System.out.println("1.Fight");
-        System.out.println("2.Escape to the hometown.");
+        System.out.println("2.Auto-combat");
+        System.out.println("3.Escape to the hometown.");
         System.out.print("Which option do you choose?: ");
         //now the handler is processing the input of the player
-        this.handler = new DungeonHandler(getInput().nextLine().toLowerCase(), player);
+        this.handler.handleInput(getInput().nextLine().toLowerCase(), player);
     }
 }

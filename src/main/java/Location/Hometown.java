@@ -9,7 +9,7 @@ public class Hometown extends Location {
     public Hometown(String name, Player player) {
         super(name);
         //options will be printed
-        this.text = new HometownText(player);
+        this.text = new HometownText();
     }
 
     public Hometown(String name) {

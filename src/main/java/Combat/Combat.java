@@ -2,13 +2,18 @@ package Combat;
 
 import Application.GamingRoutine;
 import Character.Player;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
+@Getter
+@Setter
 public abstract class Combat {
 
     Combat() {
+
     }
 
     public abstract void fight(Player player);

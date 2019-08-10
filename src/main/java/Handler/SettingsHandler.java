@@ -1,13 +1,22 @@
 package Handler;
 
 import Character.Player;
+import FileSystem.FileSystem;
 import FileSystem.Load;
 import FileSystem.Save;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class SettingsHandler extends Handler {
 
-    public SettingsHandler(String input, Player player) {
-        super(input, player);
+    private FileSystem save;
+    private FileSystem load;
+
+    public SettingsHandler() {
+        save = new Save();
+        load = new Load();
     }
 
     @Override
@@ -60,7 +69,7 @@ public class SettingsHandler extends Handler {
                 break;
             case 3:
                 System.out.print("How do wanna call your saved game?:");
-                new Save(player);
+                this.save.processFile(player);
                 System.out.println("Game was successfully saved.\n");
                 try {
                     Thread.sleep(1000);
@@ -69,7 +78,7 @@ public class SettingsHandler extends Handler {
                 }
                 break;
             case 4:
-                new Load(player);
+                this.load.processFile(player);
                 break;
             case 5:
                 System.exit(0);

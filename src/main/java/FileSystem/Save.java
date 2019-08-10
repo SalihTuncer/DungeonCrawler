@@ -8,12 +8,12 @@ import java.util.regex.Pattern;
 
 public class Save extends FileSystem {
 
-    public Save(Player player) {
-        super(player);
+    public Save() {
+
     }
 
     @Override
-    protected void processFile(Player player) {
+    public void processFile(Player player) {
         //the user is asked what the name of the file should be
         String nameOfFile = getScanner().nextLine().toLowerCase();
         if (!Pattern.matches("[a-z1-9]*", nameOfFile)) {

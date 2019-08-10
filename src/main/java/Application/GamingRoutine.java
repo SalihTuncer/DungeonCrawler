@@ -10,7 +10,7 @@ public class GamingRoutine {
         Player p1 = new Player(1);
 
         //output of the intro
-        new StartText(p1).printText(p1);
+        new StartText().printText(p1);
 
         //game starts in hometown
         p1.findLocationByName("hometown").getText().printText(p1);

@@ -16,7 +16,7 @@ public class Player extends Character {
     //enemy is an attribute so we can ask everywhere for the information
     private Enemy enemy;
     //includes all locations which is important to access locations everywhere for traveling
-    HashSet<Location> locations;
+    private HashSet<Location> locations;
 
     public Player(int lvl) {
         super(lvl);

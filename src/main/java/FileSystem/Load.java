@@ -11,12 +11,12 @@ import java.util.Scanner;
 
 public class Load extends FileSystem {
 
-    public Load(Player player) {
-        super(player);
+    public Load() {
+
     }
 
     @Override
-    protected void processFile(Player player) {
+    public void processFile(Player player) {
 
         File[] listOfFiles = new File(System.getProperty("user.dir") +
                 "/src/main/resources/saved_games/").listFiles();

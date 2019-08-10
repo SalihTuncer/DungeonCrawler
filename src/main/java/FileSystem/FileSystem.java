@@ -12,9 +12,9 @@ public abstract class FileSystem {
 
     private Scanner scanner = new Scanner(System.in);
 
-    FileSystem(Player player) {
-        processFile(player);
+    FileSystem() {
+
     }
 
-    protected abstract void processFile(Player player);
+    public abstract void processFile(Player player);
 }

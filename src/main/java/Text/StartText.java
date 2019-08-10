@@ -7,8 +7,8 @@ import java.util.regex.Pattern;
 
 public class StartText extends Text {
 
-    public StartText(Player player) {
-        super(player);
+    public StartText() {
+
     }
 
     @Override

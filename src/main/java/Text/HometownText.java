@@ -5,8 +5,8 @@ import Handler.HometownHandler;
 
 public class HometownText extends Text {
 
-    public HometownText(Player player) {
-        super(player);
+    public HometownText() {
+        this.handler = new HometownHandler();
     }
 
     @Override
@@ -23,7 +23,7 @@ public class HometownText extends Text {
         System.out.println("2.Settings");
         System.out.print("Which option do you choose?: ");
         //now the handler is processing the input of the player
-        this.handler = new HometownHandler(getInput().nextLine().toLowerCase(), player);
+        this.handler.handleInput(getInput().nextLine().toLowerCase(), player);
         System.out.println();
     }
 

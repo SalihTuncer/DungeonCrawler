@@ -16,8 +16,8 @@ public abstract class Text {
     //every text has its own handler
     Handler handler;
 
-    Text(Player player) {
-        //printText(player);
+    Text() {
+
     }
 
     public abstract void printText(Player player);

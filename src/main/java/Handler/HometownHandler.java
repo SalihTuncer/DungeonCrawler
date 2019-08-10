@@ -4,8 +4,8 @@ import Character.Player;
 
 public class HometownHandler extends Handler {
 
-    public HometownHandler(String input, Player player) {
-        super(input, player);
+    public HometownHandler() {
+
     }
 
     @Override

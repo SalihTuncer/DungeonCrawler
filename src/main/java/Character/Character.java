@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-abstract class Character {
+abstract class Character implements Cloneable {
 
     //basic attributes of the Characters in the game
     private String name;
@@ -23,6 +23,17 @@ abstract class Character {
 
     public boolean isAlive() {
         return this.hp > 0;
+    }
+
+    /**
+     * used to clone the object
+     * this way is way more efficient than to instantiate a new object
+     *
+     * @return a character-object
+     * @throws CloneNotSupportedException i mean it is kind of obvious
+     */
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 
     public boolean isReadyToLevelUp() {
