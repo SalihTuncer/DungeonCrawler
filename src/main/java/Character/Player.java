@@ -38,11 +38,11 @@ public class Player extends Character {
     @Override
     public void newStats(int lvl) {
         //in general the player has a little bit better stats than the enemy
-        setHp(lvl * 10);
-        setAtk(lvl * 4);
-        setArmor(lvl * 2);
-        setMResistance(lvl);
-        setDex(lvl * 2);
+        setHp(getHp() + (int) (Math.random() * 4 + 6));
+        setAtk(getAtk() + (int) (Math.random() * 2 + 2));
+        setArmor(getArmor() + (int) (Math.random() * 1 + 1));
+        setMResistance(getMResistance() + (int) (Math.random() * 1 + 1));
+        setDex(getDex() + (int) (Math.random() * 1 + 1));
         setLvl(lvl);
         setXp(0);
     }
