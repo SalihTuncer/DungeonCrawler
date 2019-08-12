@@ -19,8 +19,7 @@ public class HometownText extends Text {
     @Override
     public void decision(Player player) {
         System.out.println("You have the following options:");
-        System.out.println("1.Enter the dungeon");
-        System.out.println("2.Settings");
+        System.out.println("1.Enter the dungeon\n2.Settings");
         System.out.print("Which option do you choose?: ");
         //now the handler is processing the input of the player
         this.handler.handleInput(getInput().nextLine().toLowerCase(), player);

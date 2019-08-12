@@ -19,11 +19,8 @@ public class SettingsText extends Text {
     @Override
     public void decision(Player player) {
         System.out.println("You have the following options:");
-        System.out.println("1.Stats of the player");
-        System.out.println("2.Stats of the current enemy");
-        System.out.println("3.Save game");
-        System.out.println("4.Load game");
-        System.out.println("5.Quit game");
+        System.out.println("1.Stats of the player\n2.Stats of the current enemy\n3.Save game\n4.Load game");
+        System.out.println("5.Quit game\n6.Return");
         System.out.print("Which option do you choose?: ");
         this.handler.handleInput(getInput().nextLine().toLowerCase(), player);
     }

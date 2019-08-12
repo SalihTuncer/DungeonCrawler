@@ -49,6 +49,9 @@ public class SettingsHandler extends Handler {
         getOptions().put("quit the game", 5);
         getOptions().put("exit the game", 5);
         getOptions().put("5", 5);
+        //return to previous location
+        getOptions().put("return", 6);
+        getOptions().put("6", 6);
     }
 
     @Override
@@ -82,6 +85,9 @@ public class SettingsHandler extends Handler {
                 break;
             case 5:
                 System.exit(0);
+            case 6:
+                clear();
+                break;
         }
     }
 }

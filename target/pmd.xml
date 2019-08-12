@@ -2,7 +2,7 @@
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
-    version="6.8.0" timestamp="2019-08-03T19:25:43.408">
+    version="6.8.0" timestamp="2019-08-12T14:27:48.599">
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Application/GamingRoutine.java">
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="19" rule="PackageCase" ruleset="Code Style" package="Application" class="GamingRoutine" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
@@ -29,37 +29,43 @@ Parameter 'lvl' is not assigned and could be declared final
 <violation beginline="20" endline="22" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Character" class="Character" method="Character" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
 To avoid mistakes add a comment at the beginning of the null constructor if you want a default access modifier
 </violation>
-<violation beginline="35" endline="35" begincolumn="28" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Character" method="printStats" variable="character" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="35" endline="37" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="Character" class="Character" method="clone" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'clone()' is missing an @Override annotation.
+</violation>
+<violation beginline="35" endline="37" begincolumn="12" endcolumn="5" rule="CloneMethodReturnTypeMustMatchClassName" ruleset="Error Prone" package="Character" class="Character" method="clone" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#clonemethodreturntypemustmatchclassname" priority="3">
+The return type of the clone() method must be the class name when implements Cloneable
+</violation>
+<violation beginline="46" endline="46" begincolumn="28" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Character" method="printStats" variable="character" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'character' is not assigned and could be declared final
 </violation>
-<violation beginline="36" endline="36" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="47" endline="47" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="37" endline="37" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="48" endline="48" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="38" endline="38" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="49" endline="49" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="39" endline="39" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="50" endline="50" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="40" endline="40" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="51" endline="51" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="41" endline="41" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="52" endline="52" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="42" endline="42" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="53" endline="53" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="43" endline="43" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="54" endline="54" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="44" endline="44" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="55" endline="55" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="45" endline="45" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="56" endline="56" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Character" class="Character" method="printStats" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
 </file>
@@ -97,16 +103,22 @@ Package name contains upper case characters
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="17" rule="PackageCase" ruleset="Code Style" package="Character" class="Enemy" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="3" endline="20" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="Character" class="Enemy" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+<violation beginline="5" endline="60" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="Character" class="Enemy" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
 Classes implementing Serializable should set a serialVersionUID
 </violation>
-<violation beginline="5" endline="5" begincolumn="11" endcolumn="17" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Enemy" method="Enemy" variable="lvl" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="7" endline="7" begincolumn="13" endcolumn="36" rule="LooseCoupling" ruleset="Best Practices" package="Character" class="Enemy" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="8" endline="8" begincolumn="13" endcolumn="36" rule="LooseCoupling" ruleset="Best Practices" package="Character" class="Enemy" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashMap'; use the interface instead
+</violation>
+<violation beginline="10" endline="10" begincolumn="11" endcolumn="17" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Enemy" method="Enemy" variable="lvl" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'lvl' is not assigned and could be declared final
 </violation>
-<violation beginline="5" endline="7" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Character" class="Enemy" method="Enemy" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+<violation beginline="10" endline="15" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Character" class="Enemy" method="Enemy" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
 To avoid mistakes add a comment at the beginning of the null constructor if you want a default access modifier
 </violation>
-<violation beginline="10" endline="10" begincolumn="26" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Enemy" method="newStats" variable="lvl" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="18" endline="18" begincolumn="26" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Enemy" method="newStats" variable="lvl" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'lvl' is not assigned and could be declared final
 </violation>
 </file>
@@ -142,34 +154,40 @@ Parameter 'lvl' is not assigned and could be declared final
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="17" rule="PackageCase" ruleset="Code Style" package="Character" class="Player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="12" endline="62" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="Character" class="Player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+<violation beginline="13" endline="99" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="Error Prone" package="Character" class="Player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
 Classes implementing Serializable should set a serialVersionUID
 </violation>
-<violation beginline="16" endline="16" begincolumn="5" endcolumn="21" rule="LooseCoupling" ruleset="Best Practices" package="Character" class="Player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+<violation beginline="17" endline="17" begincolumn="13" endcolumn="29" rule="LooseCoupling" ruleset="Best Practices" package="Character" class="Player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
 Avoid using implementation types like 'HashSet'; use the interface instead
 </violation>
-<violation beginline="16" endline="16" begincolumn="5" endcolumn="32" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Character" class="Player" variable="locations" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
-To avoid mistakes add a comment at the beginning of the locations field if you want a default access modifier
+<violation beginline="19" endline="19" begincolumn="13" endcolumn="26" rule="LooseCoupling" ruleset="Best Practices" package="Character" class="Player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#loosecoupling" priority="3">
+Avoid using implementation types like 'HashSet'; use the interface instead
 </violation>
-<violation beginline="16" endline="16" begincolumn="5" endcolumn="32" rule="DefaultPackage" ruleset="Code Style" package="Character" class="Player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
-Use explicit scoping instead of the default package private level
-</violation>
-<violation beginline="18" endline="18" begincolumn="19" endcolumn="25" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Player" method="Player" variable="lvl" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="21" endline="21" begincolumn="19" endcolumn="25" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Player" method="Player" variable="lvl" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'lvl' is not assigned and could be declared final
 </violation>
-<violation beginline="31" endline="31" begincolumn="31" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Player" method="generateEnemy" variable="lvl" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="54" endline="54" begincolumn="31" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Player" method="generateEnemy" variable="lvl" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'lvl' is not assigned and could be declared final
 </violation>
-<violation beginline="36" endline="36" begincolumn="26" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Player" method="newStats" variable="lvl" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="59" endline="59" begincolumn="26" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Player" method="newStats" variable="lvl" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'lvl' is not assigned and could be declared final
 </violation>
-<violation beginline="47" endline="55" begincolumn="17" endcolumn="40" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="Character" class="Player" method="findLocationByName" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'UR'-anomaly for variable 'i' (lines '47'-'55').
+<violation beginline="70" endline="78" begincolumn="17" endcolumn="40" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="Character" class="Player" method="findLocationByName" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'i' (lines '70'-'78').
 </violation>
-<violation beginline="47" endline="47" begincolumn="40" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Player" method="findLocationByName" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="70" endline="70" begincolumn="40" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Player" method="findLocationByName" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'name' is not assigned and could be declared final
 </violation>
-<violation beginline="56" endline="56" begincolumn="17" endcolumn="32" rule="ControlStatementBraces" ruleset="Code Style" package="Character" class="Player" method="findLocationByName" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+<violation beginline="79" endline="79" begincolumn="17" endcolumn="32" rule="ControlStatementBraces" ruleset="Code Style" package="Character" class="Player" method="findLocationByName" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="85" endline="92" begincolumn="17" endcolumn="40" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="Character" class="Player" method="findFlaskByName" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'i' (lines '85'-'92').
+</violation>
+<violation beginline="85" endline="85" begincolumn="34" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Character" class="Player" method="findFlaskByName" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="93" endline="93" begincolumn="17" endcolumn="29" rule="ControlStatementBraces" ruleset="Code Style" package="Character" class="Player" method="findFlaskByName" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
 This statement should have braces
 </violation>
 </file>
@@ -185,20 +203,68 @@ Parameter 'player' is not assigned and could be declared final
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="14" rule="PackageCase" ruleset="Code Style" package="Combat" class="Attack" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="8" endline="8" begincolumn="23" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Combat" class="Attack" method="fight" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="9" endline="11" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="Combat" class="Attack" method="Attack" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="9" endline="11" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" package="Combat" class="Attack" method="Attack" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="14" endline="14" begincolumn="23" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Combat" class="Attack" method="fight" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
 </violation>
-<violation beginline="22" endline="22" begincolumn="32" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Combat" class="Attack" method="playerAttacks" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="21" endline="21" begincolumn="17" endcolumn="37" rule="ControlStatementBraces" ruleset="Code Style" package="Combat" class="Attack" method="fight" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="35" endline="35" begincolumn="32" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Combat" class="Attack" method="playerAttacks" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
 </violation>
-<violation beginline="24" endline="24" begincolumn="62" endcolumn="62" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="Combat" class="Attack" method="playerAttacks" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+<violation beginline="37" endline="37" begincolumn="62" endcolumn="62" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="Combat" class="Attack" method="playerAttacks" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
 Avoid using Literals in Conditional Statements
 </violation>
-<violation beginline="33" endline="33" begincolumn="31" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Combat" class="Attack" method="enemyAttacks" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="51" endline="51" begincolumn="31" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Combat" class="Attack" method="enemyAttacks" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
 </violation>
-<violation beginline="35" endline="35" begincolumn="62" endcolumn="62" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="Combat" class="Attack" method="enemyAttacks" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+<violation beginline="53" endline="53" begincolumn="62" endcolumn="62" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="Combat" class="Attack" method="enemyAttacks" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
 Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="68" endline="68" begincolumn="28" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Combat" class="Attack" method="autoCombat" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'player' is not assigned and could be declared final
+</violation>
+<violation beginline="71" endline="71" begincolumn="13" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="Combat" class="Attack" method="autoCombat" variable="tmp" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'tmp' could be declared final
+</violation>
+<violation beginline="80" endline="80" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Attack" method="autoCombat" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="84" endline="84" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Attack" method="autoCombat" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="85" endline="85" begincolumn="21" endcolumn="36" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Attack" method="autoCombat" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="87" endline="87" begincolumn="30" endcolumn="112" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Combat" class="Attack" method="autoCombat" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="93" endline="93" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="Combat" class="Attack" method="autoCombat" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="104" endline="104" begincolumn="48" endcolumn="53" rule="AvoidReassigningParameters" ruleset="Best Practices" package="Combat" class="Attack" method="decision" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidreassigningparameters" priority="2">
+Avoid reassigning parameters such as 'player'
+</violation>
+<violation beginline="104" endline="104" begincolumn="56" endcolumn="67" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Combat" class="Attack" method="decision" variable="clone" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'clone' is not assigned and could be declared final
+</violation>
+<violation beginline="104" endline="104" begincolumn="27" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Combat" class="Attack" method="decision" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'input' is not assigned and could be declared final
+</violation>
+<violation beginline="109" endline="109" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Attack" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="112" endline="112" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Attack" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="113" endline="113" begincolumn="22" endcolumn="104" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Combat" class="Attack" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
 </violation>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Combat/Aura.java">
@@ -224,52 +290,52 @@ Parameter 'player' is not assigned and could be declared final
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="14" rule="PackageCase" ruleset="Code Style" package="Combat" class="Combat" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="11" endline="12" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Combat" class="Combat" method="Combat" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+<violation beginline="15" endline="17" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Combat" class="Combat" method="Combat" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
 To avoid mistakes add a comment at the beginning of the null constructor if you want a default access modifier
 </violation>
-<violation beginline="16" endline="16" begincolumn="30" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Combat" class="Combat" method="consequences" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="21" endline="21" begincolumn="30" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Combat" class="Combat" method="consequences" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
 </violation>
-<violation beginline="20" endline="42" begincolumn="13" endcolumn="13" rule="ConfusingTernary" ruleset="Code Style" package="Combat" class="Combat" method="consequences" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#confusingternary" priority="3">
+<violation beginline="25" endline="47" begincolumn="13" endcolumn="13" rule="ConfusingTernary" ruleset="Code Style" package="Combat" class="Combat" method="consequences" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#confusingternary" priority="3">
 Avoid if (x != y) ..; else ..;
-</violation>
-<violation beginline="27" endline="27" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Combat" method="consequences" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
-</violation>
-<violation beginline="28" endline="28" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Combat" method="consequences" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
 </violation>
 <violation beginline="32" endline="32" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Combat" method="consequences" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="46" endline="46" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Combat" method="consequences" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="33" endline="33" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Combat" method="consequences" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="47" endline="47" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Combat" method="consequences" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="37" endline="37" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Combat" method="consequences" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="51" endline="51" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Combat" method="consequences" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="52" endline="52" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Combat" method="consequences" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.print is used
 </violation>
-<violation beginline="49" endline="49" begincolumn="24" endcolumn="70" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Combat" class="Combat" method="consequences" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+<violation beginline="54" endline="54" begincolumn="24" endcolumn="70" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Combat" class="Combat" method="consequences" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
 When doing a String.toLowerCase()/toUpperCase() call, use a Locale
 </violation>
-<violation beginline="60" endline="60" begincolumn="18" endcolumn="41" rule="UnusedPrivateMethod" ruleset="Best Practices" package="Combat" class="Combat" method="leaveOrNot" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+<violation beginline="65" endline="65" begincolumn="18" endcolumn="41" rule="UnusedPrivateMethod" ruleset="Best Practices" package="Combat" class="Combat" method="leaveOrNot" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
 Avoid unused private methods such as 'leaveOrNot(String)'.
 </violation>
-<violation beginline="60" endline="60" begincolumn="29" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Combat" class="Combat" method="leaveOrNot" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="65" endline="65" begincolumn="29" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Combat" class="Combat" method="leaveOrNot" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'input' is not assigned and could be declared final
 </violation>
-<violation beginline="65" endline="65" begincolumn="17" endcolumn="44" rule="ControlStatementBraces" ruleset="Code Style" package="Combat" class="Combat" method="leaveOrNot" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+<violation beginline="70" endline="70" begincolumn="17" endcolumn="44" rule="ControlStatementBraces" ruleset="Code Style" package="Combat" class="Combat" method="leaveOrNot" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
 This statement should have braces
 </violation>
-<violation beginline="68" endline="68" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Combat" method="leaveOrNot" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="73" endline="73" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Combat" method="leaveOrNot" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="69" endline="69" begincolumn="17" endcolumn="27" rule="DoNotCallSystemExit" ruleset="Error Prone" package="Combat" class="Combat" method="leaveOrNot" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#donotcallsystemexit" priority="3">
+<violation beginline="74" endline="74" begincolumn="17" endcolumn="27" rule="DoNotCallSystemExit" ruleset="Error Prone" package="Combat" class="Combat" method="leaveOrNot" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#donotcallsystemexit" priority="3">
 System.exit() should not be used in J2EE/JEE apps
 </violation>
-<violation beginline="72" endline="72" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Combat" method="leaveOrNot" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="77" endline="77" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" package="Combat" class="Combat" method="leaveOrNot" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.print is used
 </violation>
-<violation beginline="73" endline="73" begincolumn="24" endcolumn="70" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Combat" class="Combat" method="leaveOrNot" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+<violation beginline="78" endline="78" begincolumn="24" endcolumn="70" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Combat" class="Combat" method="leaveOrNot" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
 When doing a String.toLowerCase()/toUpperCase() call, use a Locale
 </violation>
 </file>
@@ -319,10 +385,7 @@ The method 'toString()' is missing an @Override annotation.
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="18" rule="PackageCase" ruleset="Code Style" package="FileSystem" class="FileSystem" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="7" endline="7" begincolumn="16" endcolumn="28" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FileSystem" class="FileSystem" method="FileSystem" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
-</violation>
-<violation beginline="7" endline="9" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="FileSystem" class="FileSystem" method="FileSystem" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+<violation beginline="15" endline="17" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="FileSystem" class="FileSystem" method="FileSystem" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
 To avoid mistakes add a comment at the beginning of the null constructor if you want a default access modifier
 </violation>
 </file>
@@ -330,76 +393,79 @@ To avoid mistakes add a comment at the beginning of the null constructor if you 
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="18" rule="PackageCase" ruleset="Code Style" package="FileSystem" class="Load" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="11" endline="11" begincolumn="17" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="Load" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="14" endline="16" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="FileSystem" class="Load" method="Load" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="14" endline="16" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" package="FileSystem" class="Load" method="Load" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="19" endline="19" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="processFile" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
 </violation>
-<violation beginline="16" endline="16" begincolumn="32" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="processFile" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
-</violation>
-<violation beginline="18" endline="19" begincolumn="9" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="processFile" variable="listOfFiles" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="21" endline="22" begincolumn="9" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="processFile" variable="listOfFiles" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'listOfFiles' could be declared final
 </violation>
-<violation beginline="20" endline="20" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="21" endline="21" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="24" endline="24" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="22" endline="28" begincolumn="9" endcolumn="60" rule="ConfusingTernary" ruleset="Code Style" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#confusingternary" priority="3">
+<violation beginline="25" endline="31" begincolumn="9" endcolumn="60" rule="ConfusingTernary" ruleset="Code Style" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#confusingternary" priority="3">
 Avoid if (x != y) ..; else ..;
 </violation>
-<violation beginline="24" endline="24" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="27" endline="27" begincolumn="21" endcolumn="38" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="25" endline="25" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="28" endline="28" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.print is used
 </violation>
-<violation beginline="26" endline="26" begincolumn="26" endcolumn="72" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+<violation beginline="29" endline="29" begincolumn="26" endcolumn="72" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
 When doing a String.toLowerCase()/toUpperCase() call, use a Locale
 </violation>
-<violation beginline="28" endline="28" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="31" endline="31" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="28" endline="28" begincolumn="13" endcolumn="60" rule="ControlStatementBraces" ruleset="Code Style" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+<violation beginline="31" endline="31" begincolumn="13" endcolumn="60" rule="ControlStatementBraces" ruleset="Code Style" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
 This statement should have braces
 </violation>
-<violation beginline="29" endline="29" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="32" endline="32" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="32" endline="32" begincolumn="18" endcolumn="58" rule="UnusedPrivateMethod" ruleset="Best Practices" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
+<violation beginline="35" endline="35" begincolumn="18" endcolumn="58" rule="UnusedPrivateMethod" ruleset="Best Practices" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
 Avoid unused private methods such as 'loadWhichOne(String,Player)'.
 </violation>
-<violation beginline="32" endline="32" begincolumn="31" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="loadWhichOne" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="35" endline="35" begincolumn="31" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="loadWhichOne" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'input' is not assigned and could be declared final
 </violation>
-<violation beginline="32" endline="32" begincolumn="45" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="loadWhichOne" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="35" endline="35" begincolumn="45" endcolumn="57" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="loadWhichOne" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
 </violation>
-<violation beginline="33" endline="34" begincolumn="9" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="loadWhichOne" variable="csvFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="36" endline="37" begincolumn="9" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="loadWhichOne" variable="csvFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'csvFile' could be declared final
 </violation>
-<violation beginline="36" endline="36" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="39" endline="39" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="37" endline="37" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="40" endline="40" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.print is used
 </violation>
-<violation beginline="38" endline="38" begincolumn="26" endcolumn="72" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+<violation beginline="41" endline="41" begincolumn="26" endcolumn="72" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
 When doing a String.toLowerCase()/toUpperCase() call, use a Locale
 </violation>
-<violation beginline="43" endline="43" begincolumn="57" endcolumn="66" rule="AvoidFileStream" ruleset="Performance" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
+<violation beginline="46" endline="46" begincolumn="57" endcolumn="66" rule="AvoidFileStream" ruleset="Performance" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
 Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
 </violation>
-<violation beginline="43" endline="43" begincolumn="13" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="loadWhichOne" variable="csv" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="46" endline="46" begincolumn="13" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="loadWhichOne" variable="csv" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'csv' could be declared final
 </violation>
-<violation beginline="45" endline="45" begincolumn="13" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="loadWhichOne" variable="data" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="48" endline="48" begincolumn="13" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Load" method="loadWhichOne" variable="data" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'data' could be declared final
 </violation>
-<violation beginline="58" endline="58" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="61" endline="61" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="60" endline="60" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+<violation beginline="63" endline="63" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="FileSystem" class="Load" method="loadWhichOne" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
 Avoid printStackTrace(); use a logger call instead.
 </violation>
 </file>
@@ -407,63 +473,199 @@ Avoid printStackTrace(); use a logger call instead.
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="18" rule="PackageCase" ruleset="Code Style" package="FileSystem" class="Save" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="10" endline="10" begincolumn="17" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Save" method="Save" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="11" endline="13" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="FileSystem" class="Save" method="Save" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="11" endline="13" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" package="FileSystem" class="Save" method="Save" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="16" endline="16" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Save" method="processFile" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
 </violation>
-<violation beginline="15" endline="15" begincolumn="32" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Save" method="processFile" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
+<violation beginline="18" endline="18" begincolumn="9" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Save" method="processFile" variable="nameOfFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'nameOfFile' could be declared final
 </violation>
-<violation beginline="17" endline="17" begincolumn="40" endcolumn="49" rule="AvoidFileStream" ruleset="Performance" package="FileSystem" class="Save" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
-Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
-</violation>
-<violation beginline="17" endline="18" begincolumn="13" endcolumn="97" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Save" method="processFile" variable="csvReader" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
-Local variable 'csvReader' could be declared final
-</violation>
-<violation beginline="18" endline="18" begincolumn="58" endcolumn="87" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="FileSystem" class="Save" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+<violation beginline="18" endline="18" begincolumn="29" endcolumn="65" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="FileSystem" class="Save" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
 When doing a String.toLowerCase()/toUpperCase() call, use a Locale
 </violation>
-<violation beginline="24" endline="24" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="FileSystem" class="Save" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+<violation beginline="20" endline="20" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" package="FileSystem" class="Save" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="25" endline="25" begincolumn="40" endcolumn="49" rule="AvoidFileStream" ruleset="Performance" package="FileSystem" class="Save" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
+Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
+</violation>
+<violation beginline="25" endline="26" begincolumn="13" endcolumn="77" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Save" method="processFile" variable="csvReader" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'csvReader' could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="FileSystem" class="Save" method="processFile" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
 Avoid printStackTrace(); use a logger call instead.
 </violation>
-<violation beginline="28" endline="28" begincolumn="61" endcolumn="65" rule="UnusedFormalParameter" ruleset="Best Practices" package="FileSystem" class="Save" method="alreadyExistsRoutine" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
-Avoid unused method parameters such as 'input'.
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Flask/Flask.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Flask" class="Flask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
 </violation>
-<violation beginline="28" endline="28" begincolumn="46" endcolumn="51" rule="UnusedFormalParameter" ruleset="Best Practices" package="FileSystem" class="Save" method="alreadyExistsRoutine" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
-Avoid unused method parameters such as 'player'.
+<violation beginline="16" endline="16" begincolumn="11" endcolumn="21" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Flask" class="Flask" method="Flask" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
 </violation>
-<violation beginline="28" endline="28" begincolumn="18" endcolumn="66" rule="UnusedPrivateMethod" ruleset="Best Practices" package="FileSystem" class="Save" method="alreadyExistsRoutine" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedprivatemethod" priority="3">
-Avoid unused private methods such as 'alreadyExistsRoutine(Player,String)'.
+<violation beginline="16" endline="18" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Flask" class="Flask" method="Flask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the null constructor if you want a default access modifier
 </violation>
-<violation beginline="28" endline="28" begincolumn="54" endcolumn="65" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Save" method="alreadyExistsRoutine" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="30" endline="30" begincolumn="33" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Flask" class="Flask" method="flaskAmountText" variable="flask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'flask' is not assigned and could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="33" endcolumn="33" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="Flask" class="Flask" method="flaskAmountText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="32" endline="32" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="Flask" class="Flask" method="flaskAmountText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="32" endline="33" begincolumn="13" endcolumn="84" rule="ControlStatementBraces" ruleset="Code Style" package="Flask" class="Flask" method="flaskAmountText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="34" endline="34" begincolumn="39" endcolumn="39" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="Flask" class="Flask" method="flaskAmountText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using Literals in Conditional Statements
+</violation>
+<violation beginline="35" endline="35" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="Flask" class="Flask" method="flaskAmountText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="35" endline="36" begincolumn="13" endcolumn="83" rule="ControlStatementBraces" ruleset="Code Style" package="Flask" class="Flask" method="flaskAmountText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="38" endline="38" begincolumn="13" endcolumn="32" rule="ControlStatementBraces" ruleset="Code Style" package="Flask" class="Flask" method="flaskAmountText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Flask/HealthFlask.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Flask" class="HealthFlask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="7" endline="7" begincolumn="24" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Flask" class="HealthFlask" method="HealthFlask" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Flask" class="HealthFlask" method="useFlask" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'player' is not assigned and could be declared final
+</violation>
+<violation beginline="19" endline="25" begincolumn="9" endcolumn="90" rule="ConfusingTernary" ruleset="Code Style" package="Flask" class="HealthFlask" method="useFlask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#confusingternary" priority="3">
+Avoid if (x != y) ..; else ..;
+</violation>
+<violation beginline="19" endline="19" begincolumn="15" endcolumn="52" rule="LogicInversion" ruleset="Design" package="Flask" class="HealthFlask" method="useFlask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_design.html#logicinversion" priority="3">
+Use opposite operator instead of the logic complement operator.
+</violation>
+<violation beginline="21" endline="21" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="Flask" class="HealthFlask" method="useFlask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="25" endline="25" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" package="Flask" class="HealthFlask" method="useFlask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="25" endline="25" begincolumn="13" endcolumn="90" rule="ControlStatementBraces" ruleset="Code Style" package="Flask" class="HealthFlask" method="useFlask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="31" endline="31" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Flask" class="HealthFlask" method="noFlaskText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Flask/KillFlask.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Flask" class="KillFlask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="7" endline="7" begincolumn="22" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Flask" class="KillFlask" method="KillFlask" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Flask" class="KillFlask" method="useFlask" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'player' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Flask" class="KillFlask" method="noFlaskText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Flask/RerollFlask.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="13" rule="PackageCase" ruleset="Code Style" package="Flask" class="RerollFlask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="7" endline="7" begincolumn="24" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Flask" class="RerollFlask" method="RerollFlask" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="29" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Flask" class="RerollFlask" method="useFlask" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'player' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="13" endcolumn="13" rule="ShortVariable" ruleset="Code Style" package="Flask" class="RerollFlask" method="useFlask" variable="j" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like j
+</violation>
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="Flask" class="RerollFlask" method="useFlask" variable="j" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'j' could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="17" endcolumn="33" rule="ControlStatementBraces" ruleset="Code Style" package="Flask" class="RerollFlask" method="useFlask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="30" endline="30" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Flask" class="RerollFlask" method="useFlask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="40" endline="40" begincolumn="35" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Flask" class="RerollFlask" method="resetPlayerStats" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'player' is not assigned and could be declared final
+</violation>
+<violation beginline="50" endline="50" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Flask" class="RerollFlask" method="noFlaskText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/BackpackHandler.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="15" rule="PackageCase" ruleset="Code Style" package="Handler" class="BackpackHandler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="8" endline="10" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="Handler" class="BackpackHandler" method="BackpackHandler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="8" endline="10" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" package="Handler" class="BackpackHandler" method="BackpackHandler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="28" endline="28" begincolumn="29" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="BackpackHandler" method="handleInput" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'input' is not assigned and could be declared final
 </violation>
-<violation beginline="28" endline="28" begincolumn="39" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="FileSystem" class="Save" method="alreadyExistsRoutine" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="28" endline="28" begincolumn="43" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="BackpackHandler" method="handleInput" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="9" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="Handler" class="BackpackHandler" method="handleInput" variable="result" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'result' could be declared final
+</violation>
+<violation beginline="37" endline="53" begincolumn="9" endcolumn="9" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" package="Handler" class="BackpackHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
+Switch statements should have a default label
+</violation>
+<violation beginline="62" endline="62" begincolumn="31" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="BackpackHandler" method="flaskRoutine" variable="flask" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'flask' is not assigned and could be declared final
+</violation>
+<violation beginline="62" endline="62" begincolumn="44" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="BackpackHandler" method="flaskRoutine" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'player' is not assigned and could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="17" endcolumn="45" rule="ControlStatementBraces" ruleset="Code Style" package="Handler" class="BackpackHandler" method="flaskRoutine" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
+</violation>
+<violation beginline="77" endline="77" begincolumn="13" endcolumn="32" rule="ControlStatementBraces" ruleset="Code Style" package="Handler" class="BackpackHandler" method="flaskRoutine" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+This statement should have braces
 </violation>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/DungeonHandler.java">
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="15" rule="PackageCase" ruleset="Code Style" package="Handler" class="DungeonHandler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="7" endline="7" begincolumn="27" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="DungeonHandler" method="DungeonHandler" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Best Practices" package="Handler" class="DungeonHandler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'Combat.Attack'
+</violation>
+<violation beginline="12" endline="14" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="Handler" class="DungeonHandler" method="DungeonHandler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="12" endline="14" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" package="Handler" class="DungeonHandler" method="DungeonHandler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="34" endline="34" begincolumn="29" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="DungeonHandler" method="handleInput" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'input' is not assigned and could be declared final
 </violation>
-<violation beginline="7" endline="7" begincolumn="41" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="DungeonHandler" method="DungeonHandler" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="34" endline="34" begincolumn="43" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="DungeonHandler" method="handleInput" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
 </violation>
-<violation beginline="20" endline="20" begincolumn="29" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="DungeonHandler" method="handleInput" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'input' is not assigned and could be declared final
-</violation>
-<violation beginline="20" endline="20" begincolumn="43" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="DungeonHandler" method="handleInput" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
-</violation>
-<violation beginline="22" endline="22" begincolumn="9" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="Handler" class="DungeonHandler" method="handleInput" variable="result" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="36" endline="36" begincolumn="9" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="Handler" class="DungeonHandler" method="handleInput" variable="result" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'result' could be declared final
 </violation>
-<violation beginline="29" endline="42" begincolumn="9" endcolumn="9" rule="TooFewBranchesForASwitchStatement" ruleset="Performance" package="Handler" class="DungeonHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_performance.html#toofewbranchesforaswitchstatement" priority="3">
-A switch with less than three branches is inefficient, use a if statement instead.
-</violation>
-<violation beginline="29" endline="42" begincolumn="9" endcolumn="9" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" package="Handler" class="DungeonHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
+<violation beginline="43" endline="67" begincolumn="9" endcolumn="9" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" package="Handler" class="DungeonHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
 Switch statements should have a default label
 </violation>
 </file>
@@ -471,67 +673,58 @@ Switch statements should have a default label
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="15" rule="PackageCase" ruleset="Code Style" package="Handler" class="Handler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="7" endline="7" begincolumn="1" endcolumn="29" rule="UnusedImports" ruleset="Best Practices" package="Handler" class="Handler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
-Avoid unused imports such as 'FileSystem.FileSystem'
-</violation>
-<violation beginline="22" endline="22" begincolumn="5" endcolumn="31" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Handler" class="Handler" variable="walk" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+<violation beginline="20" endline="20" begincolumn="5" endcolumn="31" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Handler" class="Handler" variable="walk" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
 To avoid mistakes add a comment at the beginning of the walk field if you want a default access modifier
 </violation>
-<violation beginline="22" endline="22" begincolumn="5" endcolumn="31" rule="DefaultPackage" ruleset="Code Style" package="Handler" class="Handler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+<violation beginline="20" endline="20" begincolumn="5" endcolumn="31" rule="DefaultPackage" ruleset="Code Style" package="Handler" class="Handler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
 Use explicit scoping instead of the default package private level
 </violation>
-<violation beginline="28" endline="28" begincolumn="13" endcolumn="24" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="Handler" method="Handler" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'input' is not assigned and could be declared final
-</violation>
-<violation beginline="28" endline="28" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="Handler" method="Handler" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
-</violation>
-<violation beginline="28" endline="31" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Handler" class="Handler" method="Handler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+<violation beginline="28" endline="30" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Handler" class="Handler" method="Handler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
 To avoid mistakes add a comment at the beginning of the null constructor if you want a default access modifier
 </violation>
-<violation beginline="52" endline="58" begincolumn="17" endcolumn="33" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="Handler" class="Handler" method="matches" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'UR'-anomaly for variable 'id' (lines '52'-'58').
+<violation beginline="51" endline="57" begincolumn="17" endcolumn="33" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="Handler" class="Handler" method="matches" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'id' (lines '51'-'57').
 </violation>
-<violation beginline="52" endline="57" begincolumn="17" endcolumn="32" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="Handler" class="Handler" method="matches" variable="in" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'UR'-anomaly for variable 'in' (lines '52'-'57').
+<violation beginline="51" endline="56" begincolumn="17" endcolumn="32" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" package="Handler" class="Handler" method="matches" variable="in" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'UR'-anomaly for variable 'in' (lines '51'-'56').
 </violation>
-<violation beginline="52" endline="52" begincolumn="17" endcolumn="28" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="Handler" method="matches" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="51" endline="51" begincolumn="17" endcolumn="28" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="Handler" method="matches" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'input' is not assigned and could be declared final
 </violation>
-<violation beginline="52" endline="62" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Handler" class="Handler" method="matches" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+<violation beginline="51" endline="61" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Handler" class="Handler" method="matches" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
 To avoid mistakes add a comment at the beginning of the matches method if you want a default access modifier
 </violation>
-<violation beginline="52" endline="62" begincolumn="5" endcolumn="5" rule="DefaultPackage" ruleset="Code Style" package="Handler" class="Handler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+<violation beginline="51" endline="61" begincolumn="5" endcolumn="5" rule="DefaultPackage" ruleset="Code Style" package="Handler" class="Handler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
 Use explicit scoping instead of the default package private level
 </violation>
-<violation beginline="58" endline="58" begincolumn="17" endcolumn="34" rule="ControlStatementBraces" ruleset="Code Style" package="Handler" class="Handler" method="matches" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
+<violation beginline="57" endline="57" begincolumn="17" endcolumn="34" rule="ControlStatementBraces" ruleset="Code Style" package="Handler" class="Handler" method="matches" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#controlstatementbraces" priority="3">
 This statement should have braces
 </violation>
-<violation beginline="70" endline="70" begincolumn="25" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="Handler" method="noMatchRoutine" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="69" endline="69" begincolumn="25" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="Handler" method="noMatchRoutine" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'input' is not assigned and could be declared final
 </violation>
-<violation beginline="70" endline="70" begincolumn="39" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="Handler" method="noMatchRoutine" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="69" endline="69" begincolumn="39" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="Handler" method="noMatchRoutine" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
 </violation>
-<violation beginline="70" endline="80" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Handler" class="Handler" method="noMatchRoutine" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+<violation beginline="69" endline="79" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Handler" class="Handler" method="noMatchRoutine" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
 To avoid mistakes add a comment at the beginning of the noMatchRoutine method if you want a default access modifier
 </violation>
-<violation beginline="70" endline="80" begincolumn="5" endcolumn="5" rule="DefaultPackage" ruleset="Code Style" package="Handler" class="Handler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+<violation beginline="69" endline="79" begincolumn="5" endcolumn="5" rule="DefaultPackage" ruleset="Code Style" package="Handler" class="Handler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
 Use explicit scoping instead of the default package private level
 </violation>
-<violation beginline="76" endline="76" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" package="Handler" class="Handler" method="noMatchRoutine" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="75" endline="75" begincolumn="13" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" package="Handler" class="Handler" method="noMatchRoutine" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.print is used
 </violation>
-<violation beginline="78" endline="78" begincolumn="25" endcolumn="71" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Handler" class="Handler" method="noMatchRoutine" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+<violation beginline="77" endline="77" begincolumn="25" endcolumn="61" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Handler" class="Handler" method="noMatchRoutine" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
 When doing a String.toLowerCase()/toUpperCase() call, use a Locale
 </violation>
-<violation beginline="86" endline="89" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Handler" class="Handler" method="clear" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+<violation beginline="85" endline="88" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Handler" class="Handler" method="clear" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
 To avoid mistakes add a comment at the beginning of the clear method if you want a default access modifier
 </violation>
-<violation beginline="86" endline="89" begincolumn="5" endcolumn="5" rule="DefaultPackage" ruleset="Code Style" package="Handler" class="Handler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+<violation beginline="85" endline="88" begincolumn="5" endcolumn="5" rule="DefaultPackage" ruleset="Code Style" package="Handler" class="Handler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
 Use explicit scoping instead of the default package private level
 </violation>
-<violation beginline="87" endline="87" begincolumn="9" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" package="Handler" class="Handler" method="clear" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="86" endline="86" begincolumn="9" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" package="Handler" class="Handler" method="clear" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.print is used
 </violation>
 </file>
@@ -539,11 +732,11 @@ System.out.print is used
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="15" rule="PackageCase" ruleset="Code Style" package="Handler" class="HometownHandler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="7" endline="7" begincolumn="28" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="HometownHandler" method="HometownHandler" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'input' is not assigned and could be declared final
+<violation beginline="7" endline="9" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="Handler" class="HometownHandler" method="HometownHandler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
 </violation>
-<violation beginline="7" endline="7" begincolumn="42" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="HometownHandler" method="HometownHandler" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
+<violation beginline="7" endline="9" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" package="Handler" class="HometownHandler" method="HometownHandler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
 </violation>
 <violation beginline="24" endline="24" begincolumn="29" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="HometownHandler" method="handleInput" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'input' is not assigned and could be declared final
@@ -565,35 +758,54 @@ Switch statements should have a default label
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="15" rule="PackageCase" ruleset="Code Style" package="Handler" class="SettingsHandler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="9" endline="9" begincolumn="28" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="SettingsHandler" method="SettingsHandler" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="17" endline="20" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" package="Handler" class="SettingsHandler" method="SettingsHandler" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="58" endline="58" begincolumn="29" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="SettingsHandler" method="handleInput" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'input' is not assigned and could be declared final
 </violation>
-<violation beginline="9" endline="9" begincolumn="42" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="SettingsHandler" method="SettingsHandler" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="58" endline="58" begincolumn="43" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="SettingsHandler" method="handleInput" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
 </violation>
-<violation beginline="46" endline="46" begincolumn="29" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="SettingsHandler" method="handleInput" variable="input" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'input' is not assigned and could be declared final
-</violation>
-<violation beginline="46" endline="46" begincolumn="43" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Handler" class="SettingsHandler" method="handleInput" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
-</violation>
-<violation beginline="48" endline="48" begincolumn="9" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="Handler" class="SettingsHandler" method="handleInput" variable="result" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="60" endline="60" begincolumn="9" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="Handler" class="SettingsHandler" method="handleInput" variable="result" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'result' could be declared final
 </violation>
-<violation beginline="54" endline="75" begincolumn="9" endcolumn="9" rule="MissingBreakInSwitch" ruleset="Error Prone" package="Handler" class="SettingsHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#missingbreakinswitch" priority="3">
+<violation beginline="66" endline="91" begincolumn="9" endcolumn="9" rule="MissingBreakInSwitch" ruleset="Error Prone" package="Handler" class="SettingsHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#missingbreakinswitch" priority="3">
 A switch statement does not contain a break
 </violation>
-<violation beginline="54" endline="75" begincolumn="9" endcolumn="9" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" package="Handler" class="SettingsHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
+<violation beginline="66" endline="91" begincolumn="9" endcolumn="9" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" package="Handler" class="SettingsHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
 Switch statements should have a default label
 </violation>
-<violation beginline="63" endline="63" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" package="Handler" class="SettingsHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="74" endline="74" begincolumn="17" endcolumn="32" rule="SystemPrintln" ruleset="Best Practices" package="Handler" class="SettingsHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="76" endline="76" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" package="Handler" class="SettingsHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="67" endline="67" begincolumn="21" endcolumn="39" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="Handler" class="SettingsHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+<violation beginline="80" endline="80" begincolumn="21" endcolumn="39" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="Handler" class="SettingsHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
 Avoid printStackTrace(); use a logger call instead.
 </violation>
-<violation beginline="74" endline="74" begincolumn="17" endcolumn="27" rule="DoNotCallSystemExit" ruleset="Error Prone" package="Handler" class="SettingsHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#donotcallsystemexit" priority="3">
+<violation beginline="87" endline="87" begincolumn="17" endcolumn="27" rule="DoNotCallSystemExit" ruleset="Error Prone" package="Handler" class="SettingsHandler" method="handleInput" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#donotcallsystemexit" priority="3">
 System.exit() should not be used in J2EE/JEE apps
+</violation>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Item/Item.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="12" rule="PackageCase" ruleset="Code Style" package="Item" class="Item" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="3" endline="8" begincolumn="17" endcolumn="1" rule="AbstractClassWithoutAbstractMethod" ruleset="Best Practices" package="Item" class="Item" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#abstractclasswithoutabstractmethod" priority="3">
+This abstract class does not have any abstract methods
+</violation>
+<violation beginline="5" endline="7" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="Item" class="Item" method="Item" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Backpack.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="16" rule="PackageCase" ruleset="Code Style" package="Location" class="Backpack" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="7" endline="7" begincolumn="21" endcolumn="31" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Location" class="Backpack" method="Backpack" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
 </violation>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Dungeon.java">
@@ -606,21 +818,12 @@ Parameter 'name' is not assigned and could be declared final
 <violation beginline="8" endline="8" begincolumn="33" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Location" class="Dungeon" method="Dungeon" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
 </violation>
-<violation beginline="16" endline="16" begincolumn="20" endcolumn="30" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Location" class="Dungeon" method="Dungeon" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'name' is not assigned and could be declared final
-</violation>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Hometown.java">
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="16" rule="PackageCase" ruleset="Code Style" package="Location" class="Hometown" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="9" endline="9" begincolumn="21" endcolumn="31" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Location" class="Hometown" method="Hometown" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'name' is not assigned and could be declared final
-</violation>
-<violation beginline="9" endline="9" begincolumn="34" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Location" class="Hometown" method="Hometown" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
-</violation>
-<violation beginline="15" endline="15" begincolumn="21" endcolumn="31" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Location" class="Hometown" method="Hometown" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="8" endline="8" begincolumn="21" endcolumn="31" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Location" class="Hometown" method="Hometown" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'name' is not assigned and could be declared final
 </violation>
 </file>
@@ -648,13 +851,7 @@ To avoid mistakes add a comment at the beginning of the null constructor if you 
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="16" rule="PackageCase" ruleset="Code Style" package="Location" class="Settings" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="8" endline="8" begincolumn="21" endcolumn="31" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Location" class="Settings" method="Settings" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'name' is not assigned and could be declared final
-</violation>
-<violation beginline="8" endline="8" begincolumn="34" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Location" class="Settings" method="Settings" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
-</violation>
-<violation beginline="14" endline="14" begincolumn="21" endcolumn="31" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Location" class="Settings" method="Settings" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="7" endline="7" begincolumn="21" endcolumn="31" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Location" class="Settings" method="Settings" variable="name" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'name' is not assigned and could be declared final
 </violation>
 </file>
@@ -708,12 +905,38 @@ Parameter 'destination' is not assigned and could be declared final
 Parameter 'traveler' is not assigned and could be declared final
 </violation>
 </file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/BackpackText.java">
+<violation beginline="1" endline="1" begincolumn="9" endcolumn="12" rule="PackageCase" ruleset="Code Style" package="Text" class="BackpackText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
+Package name contains upper case characters
+</violation>
+<violation beginline="8" endline="10" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" package="Text" class="BackpackText" method="BackpackText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
+</violation>
+<violation beginline="13" endline="13" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Text" class="BackpackText" method="printText" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'player' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="BackpackText" method="printText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="20" endline="20" begincolumn="26" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Text" class="BackpackText" method="decision" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'player' is not assigned and could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="BackpackText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="22" endline="22" begincolumn="9" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="BackpackText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="24" endline="24" begincolumn="34" endcolumn="68" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Text" class="BackpackText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/DungeonText.java">
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="12" rule="PackageCase" ruleset="Code Style" package="Text" class="DungeonText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="8" endline="8" begincolumn="24" endcolumn="36" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Text" class="DungeonText" method="DungeonText" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
+<violation beginline="8" endline="10" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" package="Text" class="DungeonText" method="DungeonText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
 </violation>
 <violation beginline="13" endline="13" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Text" class="DungeonText" method="printText" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
@@ -721,14 +944,8 @@ Parameter 'player' is not assigned and could be declared final
 <violation beginline="15" endline="15" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="DungeonText" method="printText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="19" endline="19" begincolumn="26" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Text" class="DungeonText" method="decision" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="20" endline="20" begincolumn="26" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Text" class="DungeonText" method="decision" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
-</violation>
-<violation beginline="19" endline="26" begincolumn="12" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="Text" class="DungeonText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
-The method 'decision(Player)' is missing an @Override annotation.
-</violation>
-<violation beginline="20" endline="20" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="DungeonText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
 </violation>
 <violation beginline="21" endline="21" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="DungeonText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
@@ -739,7 +956,7 @@ System.out.println is used
 <violation beginline="23" endline="23" begincolumn="9" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="DungeonText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.print is used
 </violation>
-<violation beginline="25" endline="25" begincolumn="43" endcolumn="77" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Text" class="DungeonText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+<violation beginline="25" endline="25" begincolumn="34" endcolumn="68" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Text" class="DungeonText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
 When doing a String.toLowerCase()/toUpperCase() call, use a Locale
 </violation>
 </file>
@@ -747,8 +964,8 @@ When doing a String.toLowerCase()/toUpperCase() call, use a Locale
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="12" rule="PackageCase" ruleset="Code Style" package="Text" class="HometownText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="8" endline="8" begincolumn="25" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Text" class="HometownText" method="HometownText" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
+<violation beginline="8" endline="10" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" package="Text" class="HometownText" method="HometownText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
 </violation>
 <violation beginline="13" endline="13" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Text" class="HometownText" method="printText" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
@@ -765,16 +982,13 @@ System.out.println is used
 <violation beginline="22" endline="22" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="HometownText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="23" endline="23" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="HometownText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
-</violation>
-<violation beginline="24" endline="24" begincolumn="9" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="HometownText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="HometownText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.print is used
 </violation>
-<violation beginline="26" endline="26" begincolumn="44" endcolumn="78" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Text" class="HometownText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+<violation beginline="25" endline="25" begincolumn="34" endcolumn="68" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Text" class="HometownText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
 When doing a String.toLowerCase()/toUpperCase() call, use a Locale
 </violation>
-<violation beginline="27" endline="27" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="HometownText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="26" endline="26" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="HometownText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
 </file>
@@ -782,8 +996,8 @@ System.out.println is used
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="12" rule="PackageCase" ruleset="Code Style" package="Text" class="SettingsText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="8" endline="8" begincolumn="25" endcolumn="37" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Text" class="SettingsText" method="SettingsText" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
+<violation beginline="8" endline="10" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" package="Text" class="SettingsText" method="SettingsText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
 </violation>
 <violation beginline="13" endline="13" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Text" class="SettingsText" method="printText" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
@@ -803,16 +1017,10 @@ System.out.println is used
 <violation beginline="23" endline="23" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="SettingsText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.out.println is used
 </violation>
-<violation beginline="24" endline="24" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="SettingsText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
+<violation beginline="24" endline="24" begincolumn="9" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="SettingsText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
 </violation>
-<violation beginline="25" endline="25" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="SettingsText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
-</violation>
-<violation beginline="26" endline="26" begincolumn="9" endcolumn="26" rule="SystemPrintln" ruleset="Best Practices" package="Text" class="SettingsText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
-System.out.println is used
-</violation>
-<violation beginline="27" endline="27" begincolumn="44" endcolumn="78" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Text" class="SettingsText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+<violation beginline="25" endline="25" begincolumn="34" endcolumn="68" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="Text" class="SettingsText" method="decision" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
 When doing a String.toLowerCase()/toUpperCase() call, use a Locale
 </violation>
 </file>
@@ -820,8 +1028,11 @@ When doing a String.toLowerCase()/toUpperCase() call, use a Locale
 <violation beginline="1" endline="1" begincolumn="9" endcolumn="12" rule="PackageCase" ruleset="Code Style" package="Text" class="StartText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#packagecase" priority="3">
 Package name contains upper case characters
 </violation>
-<violation beginline="10" endline="10" begincolumn="22" endcolumn="34" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Text" class="StartText" method="StartText" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
+<violation beginline="10" endline="12" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Code Style" package="Text" class="StartText" method="StartText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryconstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="10" endline="12" begincolumn="12" endcolumn="5" rule="CallSuperInConstructor" ruleset="Code Style" package="Text" class="StartText" method="StartText" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#callsuperinconstructor" priority="3">
+It is a good practice to call super() in a constructor
 </violation>
 <violation beginline="15" endline="15" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Text" class="StartText" method="printText" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'player' is not assigned and could be declared final
@@ -863,12 +1074,6 @@ To avoid mistakes add a comment at the beginning of the handler field if you wan
 </violation>
 <violation beginline="17" endline="17" begincolumn="5" endcolumn="20" rule="DefaultPackage" ruleset="Code Style" package="Text" class="Text" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
 Use explicit scoping instead of the default package private level
-</violation>
-<violation beginline="19" endline="19" begincolumn="17" endcolumn="22" rule="UnusedFormalParameter" ruleset="Best Practices" package="Text" class="Text" method="Text" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
-Avoid unused constructor parameters such as 'player'.
-</violation>
-<violation beginline="19" endline="19" begincolumn="10" endcolumn="22" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="Text" class="Text" method="Text" variable="player" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
-Parameter 'player' is not assigned and could be declared final
 </violation>
 <violation beginline="19" endline="21" begincolumn="5" endcolumn="5" rule="CommentDefaultAccessModifier" ruleset="Code Style" package="Text" class="Text" method="Text" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
 To avoid mistakes add a comment at the beginning of the null constructor if you want a default access modifier

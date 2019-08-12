@@ -1,6 +1,7 @@
 package Handler;
 
 import Character.Player;
+import Combat.Attack;
 import Exception.LocationNotFoundException;
 import Movement.Movement;
 import Movement.Walk;
@@ -21,6 +22,8 @@ public abstract class Handler {
     private Map<String, Integer> options = new HashMap<>();
     //handles user input
     private Scanner scanner = new Scanner(System.in);
+    //combat mechanic as an attribute
+    private Attack attack = new Attack();
 
     Handler() {
         initializeOptions();

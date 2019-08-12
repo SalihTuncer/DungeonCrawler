@@ -57,7 +57,7 @@ public class Load extends FileSystem {
             player.setXp(Integer.parseInt(data[7]));
             /*we need to generate an enemy equivalent to the lvl of the current player
             this is less overhead than to import the enemy character too. */
-            player.generateEnemy(player.getLvl());
+            player.generateEnemy();
             System.out.println("You have successfully loaded the saved game.");
         } catch (IOException e) {
             e.printStackTrace();

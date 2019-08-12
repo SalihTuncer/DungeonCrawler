@@ -39,7 +39,7 @@ public abstract class Combat {
                     player.printStats(player);
                 }
                 //new enemy needs to be generated
-                player.generateEnemy(player.getLvl());
+                player.generateEnemy();
             } else {
                 //print player stats normally
                 player.printStats(player);
