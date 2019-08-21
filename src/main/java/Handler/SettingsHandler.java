@@ -15,8 +15,8 @@ public class SettingsHandler extends Handler {
     private FileSystem load;
 
     public SettingsHandler() {
-        save = new Save();
-        load = new Load();
+        this.save = new Save();
+        this.load = new Load();
     }
 
     @Override

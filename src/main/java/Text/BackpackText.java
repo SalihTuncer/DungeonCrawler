@@ -18,7 +18,7 @@ public class BackpackText extends Text {
 
     @Override
     public void decision(Player player) {
-        System.out.println("1.HealthFlask\n2.KillFlask\n3.RerollFlask\n4.Return");
+        System.out.println("1.HealthFlask\n2.KillFlask\n3.RerollFlask\n4.Flask amounts\n5.Return");
         System.out.print("Which option do you choose?: ");
         //now the handler is processing the input of the player
         this.handler.handleInput(getInput().nextLine().toLowerCase(), player);

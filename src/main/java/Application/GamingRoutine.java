@@ -7,7 +7,7 @@ public class GamingRoutine {
 
     public void start() {
         //a player is generated
-        Player p1 = new Player(1);
+        Player p1 = new Player();
 
         //output of the intro
         new StartText().printText(p1);

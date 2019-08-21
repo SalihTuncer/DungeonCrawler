@@ -2,11 +2,24 @@ package Handler;
 
 import Character.Player;
 import Flask.Flask;
+import Flask.HealthFlask;
+import Flask.KillFlask;
+import Flask.RerollFlask;
+import lombok.Getter;
+import lombok.Setter;
 
+import java.util.HashSet;
+
+@Getter
+@Setter
 public class BackpackHandler extends Handler {
 
-    public BackpackHandler() {
+    //includes all flasks
+    private HashSet<Flask> flasks;
 
+    public BackpackHandler() {
+        //flasks get initialized
+        initializeFlasks();
     }
 
     @Override
@@ -20,8 +33,12 @@ public class BackpackHandler extends Handler {
         getOptions().put("rerollflask", 3);
         getOptions().put("reroll", 3);
         getOptions().put("3", 3);
-        getOptions().put("return", 4);
+        getOptions().put("flask amounts", 4);
+        getOptions().put("flaskamounts", 4);
+        getOptions().put("amounts", 4);
         getOptions().put("4", 4);
+        getOptions().put("return", 5);
+        getOptions().put("5", 5);
     }
 
     @Override
@@ -37,17 +54,22 @@ public class BackpackHandler extends Handler {
         switch (result) {
             case 1:
                 //the player decides to use the healthFlask
-                flaskRoutine(player.findFlaskByName("healthflask"), player);
+                flaskRoutine(findFlaskByName("healthflask"), player);
                 break;
             case 2:
                 //the player decides to use the killFlask
-                flaskRoutine(player.findFlaskByName("killflask"), player);
+                flaskRoutine(findFlaskByName("killflask"), player);
                 break;
             case 3:
                 //the player decides to use the rerollFlask
-                flaskRoutine(player.findFlaskByName("rerollflask"), player);
+                flaskRoutine(findFlaskByName("rerollflask"), player);
                 break;
             case 4:
+                clear();
+                //the player decides to print the amounts of the flasks
+                printFlaskAmounts();
+                break;
+            case 5:
                 clear();
                 break;
         }
@@ -60,7 +82,7 @@ public class BackpackHandler extends Handler {
      * @param player is the player-object
      */
     private void flaskRoutine(Flask flask, Player player) {
-        clear();
+
         //should the player have the given flask
         if (flask.getAmount() > 0) {
             //he will use it
@@ -78,4 +100,33 @@ public class BackpackHandler extends Handler {
         //player is asked for his decision
         player.findLocationByName("backpack").getText().decision(player);
     }
+
+    /**
+     * add all available flasks into the HashSet
+     */
+    private void initializeFlasks() {
+        this.flasks = new HashSet<>();
+        flasks.add(new HealthFlask("healthflask"));
+        flasks.add(new KillFlask("killflask"));
+        flasks.add(new RerollFlask("rerollflask"));
+    }
+
+    private Flask findFlaskByName(String name) {
+        //we are searching for the location with the name of the input
+        for (Flask flask : flasks) {
+            if (flask.getName().equals(name)) {
+                return flask;
+            }
+        }
+        return flasks.iterator().next();
+    }
+
+    private void printFlaskAmounts() {
+        System.out.println("================================");
+        for (Flask flask : flasks) {
+            System.out.println(flask.getName() + ": " + flask.getAmount());
+        }
+        System.out.println("================================");
+    }
+
 }

@@ -1,11 +1,7 @@
 package Handler;
 
 import Character.Player;
-import lombok.Getter;
-import lombok.Setter;
 
-@Getter
-@Setter
 public class DungeonHandler extends Handler {
 
     public DungeonHandler() {
@@ -56,12 +52,12 @@ public class DungeonHandler extends Handler {
                 break;
             case 3:
                 clear();
-                this.walk.move(player, "backpack");
+                getWalk().move(player, "backpack");
                 player.findLocationByName("dungeon").getText().decision(player);
                 break;
             case 4:
                 //the player decides to move to the hometown
-                this.walk.move(player, "hometown");
+                getWalk().move(player, "hometown");
                 break;
         }
     }

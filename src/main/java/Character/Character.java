@@ -1,11 +1,12 @@
 package Character;
 
+import Item.*;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-abstract class Character implements Cloneable {
+public abstract class Character implements Cloneable {
 
     //basic attributes of the Characters in the game
     private String name;
@@ -16,18 +17,25 @@ abstract class Character implements Cloneable {
     private int dex;
     private int lvl;
     private int xp;
+    //equipment of the character;
+    private Item[] equipment = new Item[7];
 
-    Character(int lvl) {
-        newStats(lvl);
+    Character() {
+        newStats(1);
     }
 
+    /**
+     * checks whether the character is still alive or not
+     *
+     * @return true if the character is alive
+     */
     public boolean isAlive() {
         return this.hp > 0;
     }
 
     /**
-     * used to clone the object
-     * this way is way more efficient than to instantiate a new object
+     * used to clone the object to use it as a  dummy
+     * this way is way more efficient than to instantiate a new dummy-object
      *
      * @return a character-object
      * @throws CloneNotSupportedException i mean it is kind of obvious
@@ -36,6 +44,11 @@ abstract class Character implements Cloneable {
         return super.clone();
     }
 
+    /**
+     * checks whether the character has enough experience to level up
+     *
+     * @return true if the character is ready to level up
+     */
     public boolean isReadyToLevelUp() {
         return this.xp >= lvl * 3;
     }
@@ -68,10 +81,142 @@ abstract class Character implements Cloneable {
     }
 
     /**
+     * add parameters to the stats of the character
+     *
+     * @param hp          health
+     * @param atk         attack
+     * @param armor       armor
+     * @param mResistance magic resistance
+     * @param dex         dexterity
+     */
+    public void addToAllAttributes(int hp, int atk, int armor, int mResistance, int dex) {
+        this.hp += hp;
+        this.atk += atk;
+        this.armor += armor;
+        this.mResistance += mResistance;
+        this.dex += dex;
+    }
+
+    /**
+     * reduce parameters from the stats of the character
+     *
+     * @param hp          health
+     * @param atk         attack
+     * @param armor       armor
+     * @param mResistance magic resistance
+     * @param dex         dexterity
+     */
+    public void reduceFromAllAttributes(int hp, int atk, int armor, int mResistance, int dex) {
+        this.hp -= hp;
+        this.atk -= atk;
+        this.armor -= armor;
+        this.mResistance -= mResistance;
+        this.dex -= dex;
+    }
+
+    /**
      * this method gives the character new stats depending on the object
      * it is used when an Character-object is initialized or when it gets a level up
      *
      * @param lvl is the lvl which influences the stats generated
      */
     public abstract void newStats(int lvl);
+
+    public Item getAmulet() {
+        return this.equipment[0];
+    }
+
+    public void setAmulet(Amulet amulet) {
+        //should the player already wears an amulet, it will automatically sold and unequipped
+        if (!(this.equipment[0] == null)) {
+            equipment[0].sellItem(this);
+        }
+        this.equipment[0] = amulet;
+        if (amulet != null)
+            amulet.equipItem(this);
+    }
+
+    public Item getBodyArmour() {
+        return this.equipment[1];
+    }
+
+    public void setBodyArmour(BodyArmour bodyArmour) {
+        //should the player already wears an amulet, it will automatically sold and unequipped
+        if (!(this.equipment[1] == null)) {
+            equipment[1].sellItem(this);
+        }
+        this.equipment[1] = bodyArmour;
+        if (bodyArmour != null)
+            bodyArmour.equipItem(this);
+    }
+
+    public Item getBoots() {
+        return this.equipment[2];
+    }
+
+    public void setBoots(Boots boots) {
+        //should the player already wears an amulet, it will automatically sold and unequipped
+        if (!(this.equipment[2] == null)) {
+            equipment[2].sellItem(this);
+        }
+        this.equipment[2] = boots;
+        if (boots != null)
+            boots.equipItem(this);
+    }
+
+    public Item getGloves() {
+        return this.equipment[3];
+    }
+
+    public void setGloves(Gloves gloves) {
+        //should the player already wears an amulet, it will automatically sold and unequipped
+        if (!(this.equipment[3] == null)) {
+            equipment[3].sellItem(this);
+        }
+        this.equipment[3] = gloves;
+        if (gloves != null)
+            gloves.equipItem(this);
+    }
+
+    public Item getHelmet() {
+        return this.equipment[4];
+    }
+
+    public void setHelmet(Helmet helmet) {
+        //should the player already wears an amulet, it will automatically sold and unequipped
+        if (!(this.equipment[4] == null)) {
+            equipment[4].sellItem(this);
+        }
+        this.equipment[4] = helmet;
+        if (helmet != null)
+            helmet.equipItem(this);
+    }
+
+    public Item getRings() {
+        return this.equipment[5];
+    }
+
+    public void setRings(Rings rings) {
+        //should the player already wears an amulet, it will automatically sold and unequipped
+        if (!(this.equipment[5] == null)) {
+            equipment[5].sellItem(this);
+        }
+        this.equipment[5] = rings;
+        if (rings != null)
+            rings.equipItem(this);
+    }
+
+    public Item getWeapon() {
+        return this.equipment[6];
+    }
+
+    public void setWeapon(Weapon weapon) {
+        //should the player already wears an amulet, it will automatically sold and unequipped
+        if (!(this.equipment[6] == null)) {
+            equipment[6].sellItem(this);
+        }
+        this.equipment[6] = weapon;
+        if (weapon != null)
+            weapon.equipItem(this);
+    }
 }

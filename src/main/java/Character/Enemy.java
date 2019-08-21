@@ -1,19 +1,26 @@
 package Character;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.HashMap;
 
-public class Enemy extends Character {
+@Getter
+@Setter
+public abstract class Enemy extends Character {
 
     private HashMap<Integer, String> names;
-    private HashMap<Integer, String> races;
 
-    Enemy(int lvl) {
-        super(lvl);
+    protected Enemy() {
         initializeNames();
-        initializeRaces();
-        generateName();
     }
 
+    /**
+     * TODO: Every race should have his own specific stats. Actual newStats would be protected abstract than
+     * Stats are randomly chosen between an interval.
+     *
+     * @param lvl is the lvl which influences the stats generated
+     */
     @Override
     public void newStats(int lvl) {
         //the enemy has more bad values than the player because the player needs to play against multiple enemy in time
@@ -44,17 +51,18 @@ public class Enemy extends Character {
         names.put(13, "captain");
     }
 
-    private void initializeRaces() {
-        races = new HashMap<>();
-        races.put(0, "Orc");
-        races.put(1, "Golem");
-        races.put(2, "Vampire");
-        races.put(3, "Goblin");
-        races.put(4, "Undead");
-        races.put(5, "Troll");
+    /**
+     * Names begin with the name of the race and afterwards continues with a title. These title is selected randomly
+     * of a pool of names.
+     */
+    protected void generateName() {
+        setName(getName() + "-" + getNames().get((int) (Math.random() * getNames().size())));
     }
 
-    private void generateName() {
-        setName(races.get((int) (Math.random() * races.size())) + "-" + names.get((int) (Math.random() * names.size())));
-    }
+    /**
+     * Every enemy drops his own specific loot(e.g. token, items, materials etc.)
+     *
+     * @param player is the player-object
+     */
+    public abstract void drop(Player player);
 }

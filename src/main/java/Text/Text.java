@@ -16,7 +16,7 @@ public abstract class Text {
     //every text has its own handler
     Handler handler;
 
-    Text() {
+    public Text() {
 
     }
 
@@ -28,7 +28,7 @@ public abstract class Text {
      * clears the terminal completely
      * it is used when the user give has a valid action
      */
-    void clear() {
+    public void clear() {
         System.out.print("\033[H\033[2J");
         System.out.flush();
     }

@@ -6,7 +6,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Load extends FileSystem {
@@ -23,13 +22,16 @@ public class Load extends FileSystem {
         System.out.println("================================");
         System.out.println("These are your saved games:");
         if (listOfFiles != null) {
-            Arrays.stream(listOfFiles).forEach((i) ->
-                    System.out.println(i.getName().substring(0, i.getName().length() - 4)));
+
+            for (File file : listOfFiles) {
+                System.out.println(file.getName().substring(0, file.getName().length() - 4));
+            }
+            System.out.println("================================");
             System.out.print("Which saved game do you wanna load?:");
             loadWhichOne(new Scanner(System.in).nextLine().toLowerCase(), player);
         } else
             System.out.println("There are no saved games.");
-        System.out.println("================================\n");
+
     }
 
     private void loadWhichOne(String input, Player player) {

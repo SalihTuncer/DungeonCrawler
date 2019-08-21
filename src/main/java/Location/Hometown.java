@@ -8,7 +8,7 @@ public class Hometown extends Location {
     public Hometown(String name) {
         super(name);
         //options will be printed
-        this.text = new HometownText();
+        setText(new HometownText());
     }
 
 }

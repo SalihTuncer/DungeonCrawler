@@ -10,7 +10,7 @@ public class Dungeon extends Location {
         //only when entering the dungeon, an enemy will be generated
         player.generateEnemy();
         //text of the current location will be printed
-        this.text = new DungeonText();
+        setText(new DungeonText());
     }
 
 }
