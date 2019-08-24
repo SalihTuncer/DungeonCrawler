@@ -21,7 +21,7 @@ public abstract class Character implements Cloneable {
     private Item[] equipment = new Item[7];
 
     Character() {
-        newStats(1);
+        generateStats(1);
     }
 
     /**
@@ -120,7 +120,18 @@ public abstract class Character implements Cloneable {
      *
      * @param lvl is the lvl which influences the stats generated
      */
-    public abstract void newStats(int lvl);
+    public abstract void generateStats(int lvl);
+
+    public void newStats(int lvl, int hp, int atk, int armor, int mResistance, int dex) {
+        //the enemy has more bad values than the player because the player needs to play against multiple enemy in time
+        setHp(getHp() + hp);
+        setAtk(getAtk() + (int) (Math.random() * atk + 1));
+        setArmor(getArmor() + (int) (Math.random() * armor + 1));
+        setMResistance(getMResistance() + (int) (Math.random() * mResistance + 1));
+        setDex(getDex() + (int) (Math.random() * dex + 1));
+        setLvl(lvl);
+        setXp(0);
+    }
 
     public Item getAmulet() {
         return this.equipment[0];

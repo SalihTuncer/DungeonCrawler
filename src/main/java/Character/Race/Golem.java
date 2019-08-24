@@ -10,6 +10,11 @@ public class Golem extends Race {
     }
 
     @Override
+    public void generateStats(int lvl) {
+        newStats(lvl, 9, 2, 2, 1, 1);
+    }
+
+    @Override
     public void drop(Player player) {
         player.addToken(getLvl());
     }

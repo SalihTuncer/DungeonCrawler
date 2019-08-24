@@ -75,6 +75,11 @@ public class Player extends Character {
         materials.add(new FlyStone("flystone"));
     }
 
+    @Override
+    public void generateStats(int lvl) {
+        newStats(lvl, 10, 4, 2, 2, 2);
+    }
+
     /**
      * generate an enemy and level him up until he reaches the player level
      */
@@ -91,20 +96,8 @@ public class Player extends Character {
         }
         //we start at level 2 because we instantiate it already with level 1 and level him up multiple times
         for (int i = 2; i <= getLvl(); i++) {
-            this.enemy.newStats(i);
+            this.enemy.generateStats(i);
         }
-    }
-
-    @Override
-    public void newStats(int lvl) {
-        //in general the player has a little bit better stats than the enemy
-        setHp(getHp() + 10);
-        setAtk(getAtk() + (int) (Math.random() * 3 + 2));
-        setArmor(getArmor() + (int) (Math.random() * 2 + 1));
-        setMResistance(getMResistance() + (int) (Math.random() * 2 + 1));
-        setDex(getDex() + (int) (Math.random() * 2 + 1));
-        setLvl(lvl);
-        setXp(0);
     }
 
     public Location findLocationByName(String name) {

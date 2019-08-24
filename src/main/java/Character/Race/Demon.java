@@ -10,6 +10,11 @@ public class Demon extends Race {
     }
 
     @Override
+    public void generateStats(int lvl) {
+        newStats(lvl, 7, 3, 1, 1, 3);
+    }
+
+    @Override
     public void drop(Player player) {
         player.addMaterial("firestone");
         player.addToken(getLvl());

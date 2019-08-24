@@ -30,7 +30,7 @@ public abstract class Combat {
                 //should the player has enough experience to level up
                 if (player.isReadyToLevelUp()) {
                     //the player gets new stats
-                    player.newStats(player.getLvl() + 1);
+                    player.generateStats(player.getLvl() + 1);
                     System.out.println("You have successfully killed the enemy!");
                     System.out.println("Congratulations! You have levelled up! Your new stats:");
                     player.printStats(player);

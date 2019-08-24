@@ -10,6 +10,11 @@ public class Vampire extends Race {
     }
 
     @Override
+    public void generateStats(int lvl) {
+        newStats(lvl, 8, 2, 1, 1, 3);
+    }
+
+    @Override
     public void drop(Player player) {
         player.addMaterial("bloodstone");
         player.addToken(getLvl());

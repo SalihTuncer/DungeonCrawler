@@ -24,7 +24,7 @@ public class RerollFlask extends Flask {
         for (int i = j; i >= 1; i--) {
             if (i == j)
                 player.setLvl(1);
-            player.newStats(i);
+            player.generateStats(i);
         }
         player.setLvl(j);
         System.out.println("These are your new stats:");

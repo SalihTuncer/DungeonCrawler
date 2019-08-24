@@ -10,6 +10,11 @@ public class Undead extends Race {
     }
 
     @Override
+    public void generateStats(int lvl) {
+        newStats(lvl, 8, 2, 2, 2, 1);
+    }
+
+    @Override
     public void drop(Player player) {
         player.addToken(getLvl());
     }

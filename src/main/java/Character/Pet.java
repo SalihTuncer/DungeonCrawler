@@ -7,6 +7,7 @@ public class Pet extends Character {
     }
 
     @Override
-    public void newStats(int lvl) {
+    public void generateStats(int lvl) {
+        //newStats(lvl,7,3,1,1,3);
     }
 }

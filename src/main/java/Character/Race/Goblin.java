@@ -10,6 +10,11 @@ public class Goblin extends Race {
     }
 
     @Override
+    public void generateStats(int lvl) {
+        newStats(lvl, 7, 2, 2, 1, 3);
+    }
+
+    @Override
     public void drop(Player player) {
         player.addToken(3 * getLvl());
     }

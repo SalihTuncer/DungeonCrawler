@@ -15,24 +15,6 @@ public abstract class Enemy extends Character {
         initializeNames();
     }
 
-    /**
-     * TODO: Every race should have his own specific stats. Actual newStats would be protected abstract than
-     * Stats are randomly chosen between an interval.
-     *
-     * @param lvl is the lvl which influences the stats generated
-     */
-    @Override
-    public void newStats(int lvl) {
-        //the enemy has more bad values than the player because the player needs to play against multiple enemy in time
-        setHp(getHp() + (int) (Math.random() * 3 + 6));
-        setAtk(getAtk() + (int) (Math.random() * 2 + 1));
-        setArmor(getArmor() + (int) (Math.random() * 2 + 1));
-        setMResistance(getMResistance() + (int) (Math.random() * 2 + 1));
-        setDex(getDex() + (int) (Math.random() * 2 + 1));
-        setLvl(lvl);
-        setXp(0);
-    }
-
     private void initializeNames() {
         names = new HashMap<>();
         names.put(0, "lieutenant");
