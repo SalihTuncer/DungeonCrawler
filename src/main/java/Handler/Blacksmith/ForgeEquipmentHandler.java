@@ -75,7 +75,14 @@ public class ForgeEquipmentHandler extends BlacksmithHandler {
                 break;
             case 8:
                 clear();
-                //TODO: generating items should need a fee (e.g. amount = lvl of player)
+                if (!enoughTokens(player, player.getLvl())) {
+                    try {
+                        Thread.sleep(1500);
+                    } catch (InterruptedException ignored) {
+                    }
+                    getWalk().move(player, "forgeequipment");
+                    break;
+                }
                 //generate new items at the blacksmith
                 generateItems(player);
                 //at the end synchronize items with the BlacksmithHandler
@@ -168,23 +175,6 @@ public class ForgeEquipmentHandler extends BlacksmithHandler {
             if (enoughTokens(player, options[3].getCost()))
                 equipItem(player, options[3]);
         }
-    }
-
-    /**
-     * checks whether the player has enough tokens and uses these tokens to finance the item
-     *
-     * @param player is the Player-object
-     * @param cost   of the item
-     * @return true if the player has enough tokens
-     */
-    private boolean enoughTokens(Player player, int cost) {
-        if (player.getTokens() >= cost) {
-            player.useToken(cost);
-            return true;
-        }
-        System.out.println("You have not enough tokens to forge this kind of equipment.");
-        System.out.println("Come back if you have enough of it.");
-        return false;
     }
 
     /**

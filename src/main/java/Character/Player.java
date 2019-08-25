@@ -26,7 +26,7 @@ public class Player extends Character {
     public Player() {
         super();
         //the player starts with no tokens
-        this.tokens = 0;
+        this.tokens = 100;
         //races get initialized
         initializeRaces();
         //materials get initialized

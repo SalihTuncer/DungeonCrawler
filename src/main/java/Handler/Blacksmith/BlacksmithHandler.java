@@ -110,4 +110,21 @@ public class BlacksmithHandler extends Handler {
         }
     }
 
+    /**
+     * checks whether the player has enough tokens and uses these tokens to finance the item
+     *
+     * @param player is the Player-object
+     * @param cost   of the item
+     * @return true if the player has enough tokens
+     */
+    boolean enoughTokens(Player player, int cost) {
+        if (player.getTokens() >= cost) {
+            player.useToken(cost);
+            return true;
+        }
+        System.out.println("You have not enough tokens.");
+        System.out.println("Come back if you have enough of it.");
+        return false;
+    }
+
 }
