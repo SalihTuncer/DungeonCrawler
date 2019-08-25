@@ -12,6 +12,7 @@ public class DungeonText extends Text {
     @Override
     public void printText(Player player) {
         clear();
+        playerInterface(player);
         System.out.println("You entered the deep of the dungeon!");
         decision(player);
     }

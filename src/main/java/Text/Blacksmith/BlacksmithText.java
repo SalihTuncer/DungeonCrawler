@@ -17,6 +17,7 @@ public class BlacksmithText extends Text {
     @Override
     public void printText(Player player) {
         clear();
+        playerInterface(player);
         System.out.println("You are now at the blacksmith!");
         decision(player);
     }

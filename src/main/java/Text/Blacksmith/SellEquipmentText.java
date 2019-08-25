@@ -13,6 +13,7 @@ public class SellEquipmentText extends Text {
     @Override
     public void printText(Player player) {
         clear();
+        playerInterface(player);
         decision(player);
     }
 

@@ -24,6 +24,12 @@ public abstract class Text {
 
     public abstract void decision(Player player);
 
+    public void playerInterface(Player player) {
+        System.out.println("================================");
+        System.out.println("lvl: " + player.getLvl() + " xp: " + player.getXp() + " tokens: " + player.getTokens());
+        System.out.println("================================");
+    }
+
     /**
      * clears the terminal completely
      * it is used when the user give has a valid action

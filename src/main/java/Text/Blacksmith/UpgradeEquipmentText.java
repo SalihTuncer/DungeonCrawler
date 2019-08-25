@@ -13,6 +13,7 @@ public class UpgradeEquipmentText extends Text {
     @Override
     public void printText(Player player) {
         clear();
+        playerInterface(player);
         decision(player);
     }
 

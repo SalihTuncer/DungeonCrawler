@@ -26,7 +26,7 @@ public class Player extends Character {
     public Player() {
         super();
         //the player starts with no tokens
-        this.tokens = 100;
+        this.tokens = 0;
         //races get initialized
         initializeRaces();
         //materials get initialized
@@ -126,7 +126,6 @@ public class Player extends Character {
         //we iterate through the materials until we find the one with the name of the input
         for (Material material : materials) {
             if (material.getName().equals(name)) {
-                System.out.println("ADFASDASDASD");
                 //now we add the amount depending on the level of the current enemy
                 material.addAmount(amount);
                 return;

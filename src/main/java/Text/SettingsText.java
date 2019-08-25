@@ -12,6 +12,7 @@ public class SettingsText extends Text {
     @Override
     public void printText(Player player) {
         clear();
+        playerInterface(player);
         System.out.println("You are now in the settings:");
         decision(player);
     }

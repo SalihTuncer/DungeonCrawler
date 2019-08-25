@@ -14,7 +14,7 @@
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Flask/Flask.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Flask&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="13" column="26" severity="warning" message="Die magische Zahl &apos;10&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="13" column="26" severity="warning" message="Die magische Zahl &apos;100&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 <error line="31" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 <error line="32" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
 <error line="33" column="32" severity="warning" message="Der String &quot;You have &quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
@@ -48,45 +48,14 @@
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/Handler.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Handler&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="12" severity="warning" message="Falsche Reihenfolge des Imports von &apos;java.util.*&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
-<error line="15" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="19" column="14" severity="warning" message="Das Feld &apos;walk&apos; muss als private deklariert werden und Zugriffsmethoden haben." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
-<error line="33" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="38" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="46" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="57" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
-<error line="64" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="82" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-</file>
-<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/BlacksmithHandler.java">
-<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Handler&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="9" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="15" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="36" column="47" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="37" column="37" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="38" column="31" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="39" column="40" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="40" column="33" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="41" column="36" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="42" column="31" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="43" column="52" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="44" column="36" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="45" column="26" severity="warning" message="Der String &quot;hometown&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="45" column="38" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="46" column="31" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="59" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
-<error line="68" column="18" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="72" column="18" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="76" column="18" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="95" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="102" column="35" severity="warning" message="Der String &quot;helmet&quot; wird in dieser Datei 4-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="102" column="56" severity="warning" message="Der String &quot;normal&quot; wird in dieser Datei 4-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="103" column="57" severity="warning" message="Der String &quot;magical&quot; wird in dieser Datei 4-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="104" column="54" severity="warning" message="Der String &quot;rare&quot; wird in dieser Datei 4-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="105" column="56" severity="warning" message="Der String &quot;unique&quot; wird in dieser Datei 4-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="107" column="39" severity="warning" message="Der String &quot;bodyarmour&quot; wird in dieser Datei 4-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="112" column="35" severity="warning" message="Der String &quot;weapon&quot; wird in dieser Datei 4-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="117" column="35" severity="warning" message="Der String &quot;amulet&quot; wird in dieser Datei 4-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="12" severity="warning" message="Falsche Reihenfolge des Imports von &apos;java.util.ArrayList&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="18" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="36" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="41" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="49" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="60" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="67" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="85" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/HometownHandler.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Handler&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
@@ -98,6 +67,175 @@
 <error line="24" column="31" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 <error line="37" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
 <error line="46" column="18" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/Blacksmith/BlacksmithHandler.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Handler.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="10" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="16" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="37" column="47" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="38" column="37" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="39" column="31" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="40" column="40" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="41" column="33" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="42" column="36" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="43" column="31" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="44" column="52" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="45" column="36" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="46" column="26" severity="warning" message="Der String &quot;hometown&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="46" column="38" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="47" column="31" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="60" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="69" column="18" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="73" column="18" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="76" column="18" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="83" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="113" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/Blacksmith/BuyFlaskHandler.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Handler.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="27" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="32" column="18" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="34" column="18" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="36" column="18" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="38" column="18" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="40" column="18" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="42" column="18" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/Blacksmith/UpgradeEquipmentHandler.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Handler.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="19" column="31" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="20" column="43" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="21" column="35" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="22" column="31" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="23" column="44" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="24" column="36" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="25" column="31" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="26" column="44" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="27" column="36" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="28" column="31" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="29" column="43" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="30" column="35" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="31" column="31" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="32" column="44" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="33" column="36" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="34" column="31" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="35" column="36" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="49" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="54" column="18" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="56" column="18" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="58" column="18" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="60" column="18" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="62" column="18" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="64" column="18" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/Blacksmith/SellEquipmentHandler.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Handler.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="19" column="31" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="20" column="40" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="21" column="35" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="22" column="31" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="23" column="41" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="24" column="36" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="25" column="31" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="26" column="41" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="27" column="36" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="28" column="31" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="29" column="40" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="30" column="35" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="31" column="31" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="32" column="41" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="33" column="36" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="34" column="31" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="35" column="36" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="48" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="51" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="53" severity="warning" message="Das Konstrukt &apos;else&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="58" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="60" severity="warning" message="Das Konstrukt &apos;else&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="63" column="18" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="65" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="67" severity="warning" message="Das Konstrukt &apos;else&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="70" column="18" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="72" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="74" severity="warning" message="Das Konstrukt &apos;else&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="77" column="18" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="79" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="81" severity="warning" message="Das Konstrukt &apos;else&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="84" column="18" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="86" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="88" severity="warning" message="Das Konstrukt &apos;else&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="91" column="18" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="93" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="95" severity="warning" message="Das Konstrukt &apos;else&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="98" column="18" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/Blacksmith/ForgeEquipmentHandler.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Handler.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" severity="warning" message="Falsche Reihenfolge des Imports von &apos;java.util.regex.Pattern&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="8" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="16" column="26" severity="warning" message="Der String &quot;1&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="18" column="26" severity="warning" message="Der String &quot;amulet&quot; wird in dieser Datei 3-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="19" column="26" severity="warning" message="Der String &quot;2&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="22" column="26" severity="warning" message="Der String &quot;3&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="22" column="31" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="23" column="41" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="24" column="26" severity="warning" message="Der String &quot;boots&quot; wird in dieser Datei 3-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="24" column="35" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="25" column="26" severity="warning" message="Der String &quot;4&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="25" column="31" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="26" column="42" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="27" column="26" severity="warning" message="Der String &quot;gloves&quot; wird in dieser Datei 3-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="27" column="36" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="28" column="31" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="29" column="44" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="30" column="26" severity="warning" message="Der String &quot;helmet&quot; wird in dieser Datei 3-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="30" column="36" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="31" column="31" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="32" column="41" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="33" column="26" severity="warning" message="Der String &quot;rings&quot; wird in dieser Datei 3-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="33" column="35" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="34" column="31" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="35" column="44" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="36" column="26" severity="warning" message="Der String &quot;weapon&quot; wird in dieser Datei 3-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="36" column="36" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="37" column="31" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="38" column="61" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="39" column="43" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="40" column="39" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="41" column="31" severity="warning" message="Die magische Zahl &apos;9&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="42" column="36" severity="warning" message="Die magische Zahl &apos;9&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="55" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="60" column="40" severity="warning" message="Der String &quot;bodyarmour&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="62" column="18" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="65" column="18" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="68" column="18" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="71" column="18" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="73" column="13" severity="warning" message="Fall-through vom vorherigen switch-Zweig ohne break/return/throw/continue-Anweisung." source="com.puppycrawl.tools.checkstyle.checks.coding.FallThroughCheck"/>
+<error line="73" column="18" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="76" column="18" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="80" column="38" severity="warning" message="Die magische Zahl &apos;1500&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="83" column="44" severity="warning" message="Der String &quot;forgeequipment&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="94" column="18" severity="warning" message="Die magische Zahl &apos;9&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="97" column="43" severity="warning" message="Der String &quot;blacksmith&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="102" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="110" column="35" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="121" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="123" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="125" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="127" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="129" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="143" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="160" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="165" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="170" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="175" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="175" column="46" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="176" column="43" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="180" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="187" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/SettingsHandler.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Handler&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
@@ -127,93 +265,39 @@
 <error line="88" column="13" severity="warning" message="Fall-through vom vorherigen switch-Zweig ohne break/return/throw/continue-Anweisung." source="com.puppycrawl.tools.checkstyle.checks.coding.FallThroughCheck"/>
 <error line="88" column="18" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
-<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/ForgeEquipmentHandler.java">
-<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Handler&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="warning" message="Falsche Reihenfolge des Imports von &apos;java.util.regex.Pattern&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
-<error line="8" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="16" column="26" severity="warning" message="Der String &quot;1&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="18" column="26" severity="warning" message="Der String &quot;weapon&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="19" column="26" severity="warning" message="Der String &quot;2&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="21" column="26" severity="warning" message="Der String &quot;helmet&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="22" column="31" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="23" column="49" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="24" column="41" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="25" column="31" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="26" column="45" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="27" column="26" severity="warning" message="Der String &quot;amulet&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="27" column="36" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="28" column="31" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="29" column="42" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="30" column="26" severity="warning" message="Der String &quot;gloves&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="30" column="36" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="31" column="31" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="32" column="41" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="33" column="26" severity="warning" message="Der String &quot;boots&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="33" column="35" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="34" column="31" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="35" column="41" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="36" column="26" severity="warning" message="Der String &quot;rings&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="36" column="35" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="37" column="31" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="38" column="36" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="51" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
-<error line="58" column="18" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="61" column="18" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="64" column="18" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="67" column="18" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="69" column="13" severity="warning" message="Fall-through vom vorherigen switch-Zweig ohne break/return/throw/continue-Anweisung." source="com.puppycrawl.tools.checkstyle.checks.coding.FallThroughCheck"/>
-<error line="69" column="18" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="72" column="18" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="88" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
-<error line="90" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
-<error line="92" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
-<error line="94" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
-<error line="96" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
-<error line="113" column="9" severity="warning" message="Nach &apos;if&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="113" column="61" severity="warning" message="Ein Block muss mindestens eine Anweisung enthalten." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
-<error line="113" column="61" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="115" column="9" severity="warning" message="&apos;}&apos; an Position 9 sollte in der gleichen Zeile stehen wie der nächste Teil der Multi-Block-Anweisung (eine Anweisung, die mehrere Blöcke enthält: if/else-if/else, do/while oder try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
-<error line="116" column="14" severity="warning" message="Nach &apos;if&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="116" column="67" severity="warning" message="Ein Block muss mindestens eine Anweisung enthalten." source="com.puppycrawl.tools.checkstyle.checks.blocks.EmptyBlockCheck"/>
-<error line="116" column="67" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-</file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Handler/BackpackHandler.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Handler&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="8" severity="warning" message="Falsche Reihenfolge des Imports von &apos;java.util.HashSet&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
-<error line="10" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="24" column="26" severity="warning" message="Der String &quot;healthflask&quot; wird in dieser Datei 3-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="27" column="26" severity="warning" message="Der String &quot;killflask&quot; wird in dieser Datei 3-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="30" column="26" severity="warning" message="Der String &quot;rerollflask&quot; wird in dieser Datei 3-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="30" column="41" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="31" column="36" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="32" column="31" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="33" column="43" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="34" column="42" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="35" column="37" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="36" column="31" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="37" column="36" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="38" column="31" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="51" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
-<error line="60" column="18" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="64" column="18" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="69" column="18" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="92" severity="warning" message="Das Konstrukt &apos;else&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="11" severity="warning" message="Falsche Reihenfolge des Imports von &apos;java.util.HashSet&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="13" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="27" column="26" severity="warning" message="Der String &quot;healthflask&quot; wird in dieser Datei 3-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="30" column="26" severity="warning" message="Der String &quot;killflask&quot; wird in dieser Datei 3-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="33" column="26" severity="warning" message="Der String &quot;rerollflask&quot; wird in dieser Datei 3-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="33" column="41" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="34" column="36" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="35" column="31" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="36" column="43" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="37" column="42" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="38" column="37" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="39" column="31" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="40" column="36" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="41" column="31" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="54" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="63" column="18" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="67" column="18" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="72" column="18" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 <error line="95" severity="warning" message="Das Konstrukt &apos;else&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
-<error line="101" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="122" column="28" severity="warning" message="Der String &quot;================================&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="123" column="9" severity="warning" message="Nach &apos;for&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="123" column="33" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="124" column="54" severity="warning" message="Nach &apos;+&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="124" column="54" severity="warning" message="Vor &apos;+&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="98" severity="warning" message="Das Konstrukt &apos;else&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="104" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="125" column="28" severity="warning" message="Der String &quot;================================&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Combat/Combat.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Combat&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="8" severity="warning" message="Falsche Reihenfolge des Imports von &apos;java.util.Scanner&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
 <error line="11" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 <error line="21" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="34" column="40" severity="warning" message="Der String &quot;You have successfully killed the enemy!&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="37" column="17" severity="warning" message="&apos;}&apos; an Position 17 sollte in der gleichen Zeile stehen wie der nächste Teil der Multi-Block-Anweisung (eine Anweisung, die mehrere Blöcke enthält: if/else-if/else, do/while oder try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
-<error line="37" column="17" severity="warning" message="Nach &apos;}&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="32" column="40" severity="warning" message="Der String &quot;You have successfully killed the enemy!&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="35" column="17" severity="warning" message="&apos;}&apos; an Position 17 sollte in der gleichen Zeile stehen wie der nächste Teil der Multi-Block-Anweisung (eine Anweisung, die mehrere Blöcke enthält: if/else-if/else, do/while oder try/catch/finally)." source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="35" column="17" severity="warning" message="Nach &apos;}&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 <error line="60" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
 <error line="70" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
 </file>
@@ -247,21 +331,25 @@
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Enemy.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="warning" message="Falsche Reihenfolge des Imports von &apos;java.util.HashMap&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
-<error line="8" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="27" column="48" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="27" column="52" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="41" column="19" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="42" column="19" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="43" column="19" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="44" column="19" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="45" column="19" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="46" column="19" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="47" column="19" severity="warning" message="Die magische Zahl &apos;9&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="48" column="19" severity="warning" message="Die magische Zahl &apos;10&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="49" column="19" severity="warning" message="Die magische Zahl &apos;11&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="50" column="19" severity="warning" message="Die magische Zahl &apos;12&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="51" column="19" severity="warning" message="Die magische Zahl &apos;13&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="6" severity="warning" message="Falsche Reihenfolge des Imports von &apos;java.util.ArrayList&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="9" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="19" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="31" column="19" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="32" column="19" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="33" column="19" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="34" column="19" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="35" column="19" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="36" column="19" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="37" column="19" severity="warning" message="Die magische Zahl &apos;9&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="38" column="19" severity="warning" message="Die magische Zahl &apos;10&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="39" column="19" severity="warning" message="Die magische Zahl &apos;11&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="40" column="19" severity="warning" message="Die magische Zahl &apos;12&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="41" column="19" severity="warning" message="Die magische Zahl &apos;13&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="44" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="49" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="69" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="71" severity="warning" message="Das Konstrukt &apos;else&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="78" column="28" severity="warning" message="Der String &quot;================================&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Pet.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
@@ -270,89 +358,115 @@
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Character.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="21" column="41" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="27" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="36" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="47" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="53" column="33" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="56" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="72" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="83" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="100" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="117" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="125" column="28" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="129" column="41" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="133" column="32" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="137" column="27" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="141" column="28" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="142" column="31" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="145" column="28" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="146" column="31" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="149" column="27" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="150" column="31" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="153" column="28" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="154" column="31" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="28" column="41" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="34" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="43" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="54" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="60" column="33" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="63" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="66" column="38" severity="info" message="Erwartetes Tag @param für &apos;character&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="79" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="90" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="107" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="124" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="132" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="158" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="164" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="172" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="178" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="186" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="192" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="197" column="31" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="200" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="202" column="30" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="203" column="23" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="205" column="24" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="206" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="211" column="31" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="214" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="216" column="30" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="217" column="23" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="219" column="24" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="220" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="225" column="31" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="228" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="230" column="30" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="231" column="23" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="233" column="24" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="234" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="239" column="31" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="242" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="244" column="30" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="245" column="23" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="247" column="24" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="248" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Player.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="9" severity="warning" message="Falsche Reihenfolge des Imports von &apos;java.util.ArrayList&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
-<error line="11" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="24" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="36" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="49" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="69" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="92" column="25" severity="warning" message="Die magische Zahl &apos;10&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="93" column="50" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="101" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="105" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
-<error line="111" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="113" column="9" severity="warning" message="Nach &apos;for&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="114" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
-<error line="114" column="13" severity="warning" message="Nach &apos;if&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="120" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="120" column="41" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="122" column="9" severity="warning" message="Nach &apos;for&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="123" column="13" severity="warning" message="Nach &apos;if&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="123" column="48" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="10" severity="warning" message="Falsche Reihenfolge des Imports von &apos;java.util.ArrayList&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="12" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="26" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="29" column="23" severity="warning" message="Die magische Zahl &apos;100&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="38" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="54" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="83" column="23" severity="warning" message="Die magische Zahl &apos;10&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="83" column="27" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="86" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="106" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="110" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="116" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="119" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Race/Goblin.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Race&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="13" column="36" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="23" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="12" column="35" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="24" column="29" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Race/Race.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Race&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Race/Harpy.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Race&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="23" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="12" column="26" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="12" column="35" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Race/Vampire.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Race&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="23" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="12" column="35" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Race/Undead.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Race&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="13" column="36" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="23" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Race/Golem.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Race&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="13" column="36" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="23" severity="warning" message="Die magische Zahl &apos;9&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Race/Orc.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Race&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="7" column="28" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="13" column="36" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="23" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Race/Troll.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Race&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="13" column="36" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="23" severity="warning" message="Die magische Zahl &apos;9&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Race/Demon.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Race&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="13" column="36" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="12" column="23" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="12" column="26" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="12" column="35" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Character/Class/Assassin.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Class&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
@@ -378,11 +492,6 @@
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Character.Class&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
-<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/ForgeEquipment.java">
-<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="7" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-</file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Dungeon.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
@@ -393,23 +502,39 @@
 <error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 <error line="8" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
-<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Blacksmith.java">
-<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="8" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
-<error line="8" column="50" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-</file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Backpack.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 <error line="7" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Blacksmith/ForgeEquipment.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="8" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Blacksmith/Blacksmith.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="9" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Blacksmith/BuyFlask.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="8" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Blacksmith/UpgradeEquipment.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="8" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Blacksmith/SellEquipment.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="8" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Location.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="13" column="5" severity="warning" message="Fehlerhafte Deklarationsreihenfolge für diesen Scope." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
-<error line="13" column="10" severity="warning" message="Das Feld &apos;text&apos; muss als private deklariert werden und Zugriffsmethoden haben." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
-<error line="15" column="26" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Location/Settings.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Location&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
@@ -424,18 +549,19 @@
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/FileSystem/Load.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;FileSystem&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="5" severity="warning" message="Falsche Reihenfolge des Imports von &apos;java.io.BufferedReader&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
-<error line="12" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="21" column="58" severity="warning" message="Der String &quot;user.dir&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="21" column="70" severity="warning" message="&apos;+&apos; sollte in einer neuen Zeile stehen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
-<error line="22" column="17" severity="warning" message="Der String &quot;/src/main/resources/saved_games/&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
-<error line="27" column="88" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="30" severity="warning" message="Das Konstrukt &apos;else&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
-<error line="36" column="101" severity="warning" message="&apos;+&apos; sollte in einer neuen Zeile stehen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
-<error line="53" column="51" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="54" column="57" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="55" column="49" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="56" column="49" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="57" column="48" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="11" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="20" column="58" severity="warning" message="Der String &quot;user.dir&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="20" column="70" severity="warning" message="&apos;+&apos; sollte in einer neuen Zeile stehen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="21" column="17" severity="warning" message="Der String &quot;/src/main/resources/saved_games/&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="22" column="28" severity="warning" message="Der String &quot;================================&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="27" column="90" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="32" severity="warning" message="Das Konstrukt &apos;else&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="38" column="101" severity="warning" message="&apos;+&apos; sollte in einer neuen Zeile stehen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+<error line="55" column="51" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="56" column="57" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="57" column="49" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="58" column="49" severity="warning" message="Die magische Zahl &apos;6&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="59" column="48" severity="warning" message="Die magische Zahl &apos;7&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/FileSystem/Save.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;FileSystem&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
@@ -461,70 +587,72 @@
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Item/Gloves.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Item&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Item/Boots.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Item&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Item/Rings.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Item&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Item/Helmet.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Item&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="14" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Item/BodyArmour.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Item&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="14" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Item/Item.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Item&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="8" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="31" column="22" severity="warning" message="Nach &apos;*&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="31" column="22" severity="warning" message="Vor &apos;*&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
-<error line="36" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
-<error line="42" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
-<error line="50" column="26" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
-<error line="53" column="26" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="9" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="37" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="41" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="42" column="18" severity="warning" message="Der String &quot;normal&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="45" column="18" severity="warning" message="Der String &quot;magical&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="48" column="18" severity="warning" message="Der String &quot;rare&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="49" column="28" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="51" column="18" severity="warning" message="Der String &quot;unique&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="52" column="28" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="60" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="60" column="40" severity="warning" message="Die magische Zahl &apos;5&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="70" column="18" severity="warning" message="Die magische Zahl &apos;3&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="73" column="18" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="79" severity="warning" message="Das Konstrukt &apos;if&apos; muss geschweifte Klammern &apos;{}&apos; verwenden." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="85" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="93" column="26" severity="warning" message="Die magische Zahl &apos;4&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="96" column="26" severity="warning" message="Die magische Zahl &apos;8&apos; sollte als Konstante definiert werden." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="101" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Item/Amulet.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Item&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="14" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Item/Weapon.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Item&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="14" severity="warning" message="In der switch-Anweisung fehlt der &quot;default&quot;-Zweig." source="com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Rarity/Rarity.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Rarity&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="12" column="24" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Rarity/Magical.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Rarity&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="5" column="32" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Rarity/Rare.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Rarity&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="5" column="29" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Rarity/Normal.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Rarity&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="5" column="31" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Rarity/Unique.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Rarity&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="5" column="31" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/Text.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
@@ -532,7 +660,13 @@
 <error line="10" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 <error line="17" column="5" severity="warning" message="Fehlerhafte Deklarationsreihenfolge für diesen Scope." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 <error line="17" column="13" severity="warning" message="Das Feld &apos;handler&apos; muss als private deklariert werden und Zugriffsmethoden haben." source="com.puppycrawl.tools.checkstyle.checks.design.VisibilityModifierCheck"/>
-<error line="27" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="27" column="40" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="28" column="28" severity="warning" message="Der String &quot;================================&quot; wird in dieser Datei 2-mal verwendet." source="com.puppycrawl.tools.checkstyle.checks.coding.MultipleStringLiteralsCheck"/>
+<error line="29" column="63" severity="warning" message="Nach &apos;+&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="29" column="63" severity="warning" message="Vor &apos;+&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="29" column="92" severity="warning" message="Nach &apos;+&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="29" column="92" severity="warning" message="Vor &apos;+&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="33" severity="info" message="Der erste Satz sollte mit einem Punkt enden." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/HometownText.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
@@ -542,13 +676,31 @@
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
-<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/ForgeEquipmentText.java">
-<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-</file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/DungeonText.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/Blacksmith/BuyFlaskText.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/Blacksmith/ForgeEquipmentText.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/Blacksmith/SellEquipmentText.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/Blacksmith/UpgradeEquipmentText.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="21" severity="warning" message="Zeile ist 123 Zeichen lang (Obergrenze ist 120)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/Blacksmith/BlacksmithText.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text.Blacksmith&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="8" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="10" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/StartText.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
@@ -560,11 +712,6 @@
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/BackpackText.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-</file>
-<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Text/BlacksmithText.java">
-<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Text&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
-<error line="7" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="9" column="5" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Application/GamingRoutine.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Application&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
@@ -591,16 +738,39 @@
 <error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 <error line="7" column="5" severity="warning" message="Die statische Variable wird an der falschen Stelle deklariert." source="com.puppycrawl.tools.checkstyle.checks.coding.DeclarationOrderCheck"/>
 </file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Material/ShadowStone.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Material&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Material/WindStone.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Material&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Material/Material.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Material&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="6" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
-<error line="18" column="33" severity="warning" message="Vor &apos;{&apos; fehlt ein Leerzeichen." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 </file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Material/BloodStone.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Material&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Material/GraveStone.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Material&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
 <file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Material/FireStone.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Material&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Material/AngerStone.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Material&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Material/EarthStone.java">
+<error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Material&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+</file>
+<file name="/Users/salihtuncer/Desktop/Projekte/DungeonCrawler/src/main/java/Material/RainbowStone.java">
 <error line="1" column="9" severity="warning" message="Der Bezeichner &apos;Material&apos; entspricht nicht dem Muster &apos;^[a-z]+(\.[a-z][a-z0-9_]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
 <error line="3" severity="info" message="Es fehlt ein Javadoc-Kommentar." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
 </file>

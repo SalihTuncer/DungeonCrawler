@@ -12,6 +12,7 @@ public class HometownText extends Text {
     @Override
     public void printText(Player player) {
         clear();
+        playerInterface(player);
         System.out.println("Welcome to the hometown.");
         decision(player);
     }

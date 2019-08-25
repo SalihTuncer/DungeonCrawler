@@ -12,6 +12,7 @@ public class BackpackText extends Text {
     @Override
     public void printText(Player player) {
         clear();
+        playerInterface(player);
         System.out.println("Let's have a look what lays in your backpack:");
         decision(player);
     }
