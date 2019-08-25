@@ -1,7 +1,5 @@
 package Character.Race;
 
-import Character.Player;
-
 public class Golem extends Race {
 
     public Golem(String name) {
@@ -15,9 +13,14 @@ public class Golem extends Race {
     }
 
     @Override
-    public void drop(Player player) {
-        player.addMaterial("earthstone");
-        player.addToken(getLvl());
-        dropText(new String[]{"earthstone", "token"}, new int[]{getLvl(), getLvl()});
+    public void initializeLoot() {
+        getLoot().add(getLvl(), "earthstone");
+        getLoot().add(getLvl(), "token");
+    }
+
+    @Override
+    public void initializeLootAmount() {
+        getLootAmount().add(getLvl());
+        getLootAmount().add(getLvl());
     }
 }

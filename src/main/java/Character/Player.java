@@ -56,22 +56,23 @@ public class Player extends Character {
      */
     private void initializeRaces() {
         races = new ArrayList<>();
-        races.add(new Orc("orc"));
-        races.add(new Golem("golem"));
-        races.add(new Vampire("vampire"));
-        races.add(new Goblin("goblin"));
-        races.add(new Undead("undead"));
-        races.add(new Troll("troll"));
         races.add(new Demon("demon"));
+        races.add(new Goblin("goblin"));
+        races.add(new Golem("golem"));
+        races.add(new Harpy("harpy"));
+        races.add(new Orc("orc"));
+        races.add(new Troll("troll"));
+        races.add(new Undead("undead"));
+        races.add(new Vampire("vampire"));
     }
 
     private void initializeMaterials() {
         materials = new ArrayList<>();
         materials.add(new AngerStone("angerstone"));
         materials.add(new BloodStone("bloodstone"));
-        materials.add(new DeathStone("deathstone"));
         materials.add(new EarthStone("earthstone"));
         materials.add(new FireStone("firestone"));
+        materials.add(new GraveStone("gravestone"));
         materials.add(new RainbowStone("rainbowstone"));
         materials.add(new ShadowStone("shadowstone"));
         materials.add(new WindStone("flystone"));
@@ -121,12 +122,13 @@ public class Player extends Character {
         return materials.iterator().next();
     }
 
-    public void addMaterial(String name) {
+    void addMaterial(String name, int amount) {
         //we iterate through the materials until we find the one with the name of the input
         for (Material material : materials) {
             if (material.getName().equals(name)) {
+                System.out.println("ADFASDASDASD");
                 //now we add the amount depending on the level of the current enemy
-                material.addAmount(this.enemy.getLvl());
+                material.addAmount(amount);
                 return;
             }
         }

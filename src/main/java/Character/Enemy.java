@@ -3,16 +3,24 @@ package Character;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 @Getter
 @Setter
 public abstract class Enemy extends Character {
-
+    //pool of names the enemy can have
     private HashMap<Integer, String> names;
+    //loot of the enemy
+    private ArrayList<String> loot = new ArrayList<>();
+    //amount of the loot the enemy will drop at his death
+    private ArrayList<Integer> lootAmount = new ArrayList<>();
 
     protected Enemy() {
         initializeNames();
+        this.loot.add("");
+        initializeLoot();
+        initializeLootAmount();
     }
 
     private void initializeNames() {
@@ -34,6 +42,16 @@ public abstract class Enemy extends Character {
     }
 
     /**
+     * initialize the loot of the specific races
+     */
+    protected abstract void initializeLoot();
+
+    /**
+     * initialize the amount of the specific drops
+     */
+    protected abstract void initializeLootAmount();
+
+    /**
      * Names begin with the name of the race and afterwards continues with a title. These title is selected randomly
      * of a pool of names.
      */
@@ -46,14 +64,24 @@ public abstract class Enemy extends Character {
      *
      * @param player is the player-object
      */
-    public abstract void drop(Player player);
+    public void drop(Player player) {
+        for (int i = 1; i < getLoot().size(); i++) {
+            if (getLoot().get(i).equals("token"))
+                player.addToken(getLootAmount().get(i - 1));
+            else
+                player.addMaterial(getLoot().get(i), getLootAmount().get(i - 1));
+        }
+        dropText(getLoot(), getLootAmount());
+    }
 
-    protected void dropText(String[] items, int[] amount) {
+    private void dropText(ArrayList<String> items, ArrayList<Integer> amount) {
         System.out.println("================================");
         System.out.println("drops:");
-        for (int i = 0; i < items.length; i++) {
-            System.out.println(amount[i] + "x " + items[i]);
+        for (int i = 1; i < items.size(); i++) {
+            System.out.println(amount.get(i - 1) + "x " + items.get(i));
         }
         System.out.println("================================");
     }
+
+
 }

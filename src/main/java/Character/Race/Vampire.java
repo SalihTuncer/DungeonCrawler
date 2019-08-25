@@ -1,7 +1,5 @@
 package Character.Race;
 
-import Character.Player;
-
 public class Vampire extends Race {
 
     public Vampire(String name) {
@@ -15,9 +13,14 @@ public class Vampire extends Race {
     }
 
     @Override
-    public void drop(Player player) {
-        player.addMaterial("bloodstone");
-        player.addToken(getLvl());
-        dropText(new String[]{"bloodstone", "token"}, new int[]{getLvl(), getLvl()});
+    public void initializeLoot() {
+        getLoot().add(getLvl(), "bloodstone");
+        getLoot().add(getLvl(), "token");
+    }
+
+    @Override
+    public void initializeLootAmount() {
+        getLootAmount().add(getLvl());
+        getLootAmount().add(getLvl());
     }
 }

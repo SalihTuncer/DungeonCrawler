@@ -1,7 +1,5 @@
 package Character.Race;
 
-import Character.Player;
-
 public class Orc extends Race {
 
     public Orc(String name) {
@@ -15,9 +13,14 @@ public class Orc extends Race {
     }
 
     @Override
-    public void drop(Player player) {
-        player.addMaterial("angerstone");
-        player.addToken(getLvl());
-        dropText(new String[]{"angerstone", "token"}, new int[]{getLvl(), getLvl()});
+    public void initializeLoot() {
+        getLoot().add(getLvl(), "angerstone");
+        getLoot().add(getLvl(), "token");
+    }
+
+    @Override
+    public void initializeLootAmount() {
+        getLootAmount().add(getLvl());
+        getLootAmount().add(getLvl());
     }
 }

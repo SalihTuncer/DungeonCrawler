@@ -1,7 +1,5 @@
 package Character.Race;
 
-import Character.Player;
-
 public class Troll extends Race {
 
     public Troll(String name) {
@@ -15,9 +13,14 @@ public class Troll extends Race {
     }
 
     @Override
-    public void drop(Player player) {
-        player.addToken(getLvl());
-        dropText(new String[]{"firestone", "token"}, new int[]{getLvl(), getLvl()});
-        player.addMaterial("firestone");
+    public void initializeLoot() {
+        getLoot().add(getLvl(), "firestone");
+        getLoot().add(getLvl(), "token");
+    }
+
+    @Override
+    public void initializeLootAmount() {
+        getLootAmount().add(getLvl());
+        getLootAmount().add(getLvl());
     }
 }

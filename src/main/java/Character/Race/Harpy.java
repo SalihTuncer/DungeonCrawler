@@ -1,7 +1,5 @@
 package Character.Race;
 
-import Character.Player;
-
 public class Harpy extends Race {
 
     public Harpy(String name) {
@@ -15,9 +13,14 @@ public class Harpy extends Race {
     }
 
     @Override
-    public void drop(Player player) {
-        player.addMaterial("windstone");
-        player.addToken(getLvl());
-        dropText(new String[]{"windstone", "token"}, new int[]{getLvl(), getLvl()});
+    public void initializeLoot() {
+        getLoot().add(getLvl(), "windstone");
+        getLoot().add(getLvl(), "token");
+    }
+
+    @Override
+    public void initializeLootAmount() {
+        getLootAmount().add(getLvl());
+        getLootAmount().add(getLvl());
     }
 }

@@ -1,7 +1,5 @@
 package Character.Race;
 
-import Character.Player;
-
 public class Undead extends Race {
 
     public Undead(String name) {
@@ -15,9 +13,14 @@ public class Undead extends Race {
     }
 
     @Override
-    public void drop(Player player) {
-        player.addMaterial("deathstone");
-        player.addToken(getLvl());
-        dropText(new String[]{"deathstone", "token"}, new int[]{getLvl(), getLvl()});
+    public void initializeLoot() {
+        getLoot().add(getLvl(), "gravestone");
+        getLoot().add(getLvl(), "token");
+    }
+
+    @Override
+    public void initializeLootAmount() {
+        getLootAmount().add(getLvl());
+        getLootAmount().add(getLvl());
     }
 }
