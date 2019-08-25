@@ -3,10 +3,7 @@ package Character;
 import Character.Race.*;
 import Location.*;
 import Location.Blacksmith.*;
-import Material.BloodStone;
-import Material.FireStone;
-import Material.FlyStone;
-import Material.Material;
+import Material.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -70,9 +67,14 @@ public class Player extends Character {
 
     private void initializeMaterials() {
         materials = new ArrayList<>();
-        materials.add(new FireStone("firestone"));
+        materials.add(new AngerStone("angerstone"));
         materials.add(new BloodStone("bloodstone"));
-        materials.add(new FlyStone("flystone"));
+        materials.add(new DeathStone("deathstone"));
+        materials.add(new EarthStone("earthstone"));
+        materials.add(new FireStone("firestone"));
+        materials.add(new RainbowStone("rainbowstone"));
+        materials.add(new ShadowStone("shadowstone"));
+        materials.add(new WindStone("flystone"));
     }
 
     @Override

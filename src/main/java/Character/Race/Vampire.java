@@ -18,5 +18,6 @@ public class Vampire extends Race {
     public void drop(Player player) {
         player.addMaterial("bloodstone");
         player.addToken(getLvl());
+        dropText(new String[]{"bloodstone", "token"}, new int[]{getLvl(), getLvl()});
     }
 }

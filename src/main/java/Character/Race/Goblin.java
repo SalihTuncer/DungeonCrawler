@@ -16,6 +16,9 @@ public class Goblin extends Race {
 
     @Override
     public void drop(Player player) {
+        player.addMaterial("rainbowstone");
         player.addToken(3 * getLvl());
+        dropText(new String[]{"rainbowstone", "token"}, new int[]{getLvl(), 3 * getLvl()});
     }
+
 }

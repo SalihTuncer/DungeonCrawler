@@ -47,4 +47,13 @@ public abstract class Enemy extends Character {
      * @param player is the player-object
      */
     public abstract void drop(Player player);
+
+    protected void dropText(String[] items, int[] amount) {
+        System.out.println("================================");
+        System.out.println("drops:");
+        for (int i = 0; i < items.length; i++) {
+            System.out.println(amount[i] + "x " + items[i]);
+        }
+        System.out.println("================================");
+    }
 }

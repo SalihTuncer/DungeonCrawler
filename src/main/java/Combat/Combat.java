@@ -25,8 +25,6 @@ public abstract class Combat {
             if (!player.getEnemy().isAlive()) {
                 //player gets xp equal to the level of the enemy
                 player.setXp(player.getXp() + player.getEnemy().getLvl());
-                //the enemy drops his loot
-                player.getEnemy().drop(player);
                 //should the player has enough experience to level up
                 if (player.isReadyToLevelUp()) {
                     //the player gets new stats
@@ -40,6 +38,8 @@ public abstract class Combat {
                     //print player stats normally
                     player.printStats(player);
                 }
+                //the enemy drops his loot
+                player.getEnemy().drop(player);
                 //new enemy needs to be generated
                 player.generateEnemy();
             } else {

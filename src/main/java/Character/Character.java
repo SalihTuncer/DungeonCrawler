@@ -10,12 +10,19 @@ public abstract class Character implements Cloneable {
 
     //basic attributes of the Characters in the game
     private String name;
+    //health-stat
     private int hp;
+    //attack-stat
     private int atk;
+    //armor-stat
     private int armor;
+    //magic resistance-stat
     private int mResistance;
+    //dexterity-stat
     private int dex;
+    //level
     private int lvl;
+    //experience
     private int xp;
     //equipment of the character;
     private Item[] equipment = new Item[7];
@@ -115,13 +122,24 @@ public abstract class Character implements Cloneable {
     }
 
     /**
-     * this method gives the character new stats depending on the object
+     * this method calls new stats with specific stats
      * it is used when an Character-object is initialized or when it gets a level up
      *
-     * @param lvl is the lvl which influences the stats generated
+     * @param lvl is the level which influences the stats generated
      */
     public abstract void generateStats(int lvl);
 
+    /**
+     * this method gives the character new stats depending on the object
+     * each parameter is the stat-configuration
+     *
+     * @param lvl         is the level which influences the stats
+     * @param hp          is the health-stat
+     * @param atk         is the attack-stat
+     * @param armor       is the armor-stat
+     * @param mResistance is the magic resistance-stat
+     * @param dex         is the dexterity-stat
+     */
     public void newStats(int lvl, int hp, int atk, int armor, int mResistance, int dex) {
         //the enemy has more bad values than the player because the player needs to play against multiple enemy in time
         setHp(getHp() + hp);

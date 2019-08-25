@@ -10,7 +10,7 @@ public abstract class Flask {
     //actual name of the flask
     private String name;
 
-    private int amount = 1;
+    private int amount = 100;
 
     Flask(String name) {
         this.name = name;

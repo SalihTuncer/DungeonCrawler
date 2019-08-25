@@ -16,6 +16,8 @@ public class Orc extends Race {
 
     @Override
     public void drop(Player player) {
+        player.addMaterial("angerstone");
         player.addToken(getLvl());
+        dropText(new String[]{"angerstone", "token"}, new int[]{getLvl(), getLvl()});
     }
 }

@@ -16,7 +16,8 @@ public class Harpy extends Race {
 
     @Override
     public void drop(Player player) {
-        player.addMaterial("flystone");
+        player.addMaterial("windstone");
         player.addToken(getLvl());
+        dropText(new String[]{"windstone", "token"}, new int[]{getLvl(), getLvl()});
     }
 }

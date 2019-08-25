@@ -16,7 +16,8 @@ public class Demon extends Race {
 
     @Override
     public void drop(Player player) {
-        player.addMaterial("firestone");
+        player.addMaterial("shadowstone");
         player.addToken(getLvl());
+        dropText(new String[]{"shadowstone", "token"}, new int[]{getLvl(), getLvl()});
     }
 }

@@ -16,6 +16,8 @@ public class Golem extends Race {
 
     @Override
     public void drop(Player player) {
+        player.addMaterial("earthstone");
         player.addToken(getLvl());
+        dropText(new String[]{"earthstone", "token"}, new int[]{getLvl(), getLvl()});
     }
 }

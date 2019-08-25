@@ -16,6 +16,8 @@ public class Undead extends Race {
 
     @Override
     public void drop(Player player) {
+        player.addMaterial("deathstone");
         player.addToken(getLvl());
+        dropText(new String[]{"deathstone", "token"}, new int[]{getLvl(), getLvl()});
     }
 }
